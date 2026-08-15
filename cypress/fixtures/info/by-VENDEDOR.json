@@ -1,0 +1,314 @@
+{
+    "user": {
+        "id": "salePersonA",
+        "name": "Alcione Sale Person A",
+        "email": "salePersonA@salePersonA.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-05-05T13:39:23.820Z",
+        "updatedAt": "2025-05-05T13:39:23.820Z",
+        "userRoles": [
+            {
+                "id": "salePersonRoleA",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonA",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            },
+            {
+                "id": "canBeDeletedRole",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "SOLUTION_ARCHITECT",
+                "userId": "salePersonA",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            }
+        ]
+    },
+    "regrasHabilidades": [
+        {
+            "action": "manage",
+            "subject": "TipoProdutoServico"
+        },
+        {
+            "action": "manage",
+            "subject": "FormaPagamento"
+        },
+        {
+            "action": "manage",
+            "subject": "Fornecedor"
+        },
+        {
+            "action": "manage",
+            "subject": "Fabricante"
+        },
+        {
+            "action": "manage",
+            "subject": "Categoria"
+        },
+        {
+            "action": "manage",
+            "subject": "Segmento"
+        },
+        {
+            "action": "manage",
+            "subject": "Produto"
+        },
+        {
+            "action": "manage",
+            "subject": "Servico"
+        },
+        {
+            "action": "manage",
+            "subject": "Cliente"
+        },
+        {
+            "action": "read",
+            "subject": "UserRole",
+            "conditions": {
+                "role": {
+                    "$in": [
+                        "COMERCIAL_MANAGER",
+                        "COMERCIAL_ASSISTANT",
+                        "SOLUTION_ARCHITECT",
+                        "VENDEDOR",
+                        "REFERRER"
+                    ]
+                }
+            }
+        },
+        {
+            "action": "read",
+            "subject": "UserRole",
+            "conditions": {
+                "id": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Empresa",
+            "conditions": {
+                "userId": "salePersonA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Contrato"
+        },
+        {
+            "action": "read",
+            "subject": "User"
+        },
+        {
+            "action": "read",
+            "subject": "Auditoria",
+            "conditions": {
+                "tabela": {
+                    "$in": [
+                        "COMISSAO",
+                        "CLIENTE",
+                        "FORNECEDOR",
+                        "PRODUTO",
+                        "SERVICO",
+                        "VENDA"
+                    ]
+                }
+            }
+        },
+        {
+            "action": "read",
+            "subject": "DistribuicaoComissao",
+            "conditions": {
+                "userRoleId": "salePersonRoleA",
+                "role": "VENDEDOR"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Dashboard",
+            "conditions": {
+                "userRoleId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Comissao",
+            "conditions": {
+                "userId": "salePersonA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Meta",
+            "conditions": {
+                "userRoleId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Auditoria",
+            "conditions": {
+                "tabela": {
+                    "$in": [
+                        "VISITA"
+                    ]
+                }
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Venda",
+            "conditions": {
+                "accountManagerIdAtual": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Venda",
+            "conditions": {
+                "salePersonId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Visita",
+            "conditions": {
+                "salePersonId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "create",
+            "subject": "Venda",
+            "conditions": {
+                "estadoVenda": {
+                    "$in": [
+                        "INITIAL",
+                        "BILLING_AUDIT"
+                    ]
+                },
+                "accountManagerId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "create",
+            "subject": "Venda",
+            "conditions": {
+                "estadoVenda": {
+                    "$in": [
+                        "INITIAL",
+                        "BILLING_AUDIT"
+                    ]
+                },
+                "insideSalesId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "create",
+            "subject": "Visita",
+            "conditions": {
+                "salePersonId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "update",
+            "subject": "Venda",
+            "conditions": {
+                "estadoVenda": {
+                    "$in": [
+                        "INITIAL",
+                        "BILLING_AUDIT"
+                    ]
+                },
+                "estadoVendaAtual": {
+                    "$in": [
+                        "INITIAL"
+                    ]
+                },
+                "accountManagerIdAtual": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "update",
+            "subject": "Venda",
+            "conditions": {
+                "estadoVenda": {
+                    "$in": [
+                        "INITIAL",
+                        "BILLING_AUDIT"
+                    ]
+                },
+                "estadoVendaAtual": {
+                    "$in": [
+                        "INITIAL"
+                    ]
+                },
+                "insideSalesIdAtual": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "update",
+            "subject": "Visita",
+            "conditions": {
+                "salePersonId": "salePersonRoleA",
+                "currentSalePersonId": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "delete",
+            "subject": "Venda",
+            "conditions": {
+                "estadoVendaAtual": {
+                    "$in": [
+                        "INITIAL"
+                    ]
+                },
+                "accountManagerIdAtual": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "delete",
+            "subject": "Venda",
+            "conditions": {
+                "estadoVendaAtual": {
+                    "$in": [
+                        "INITIAL"
+                    ]
+                },
+                "insideSalesIdAtual": "salePersonRoleA"
+            }
+        },
+        {
+            "action": "delete",
+            "subject": "Visita",
+            "conditions": {
+                "currentSalePersonId": "salePersonRoleA"
+            }
+        }
+    ],
+    "currentUserRole": {
+        "id": "salePersonRoleA",
+        "createdAt": "2025-05-05T13:39:23.824Z",
+        "updatedAt": "2025-05-05T13:39:23.824Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "VENDEDOR",
+        "userId": "salePersonA",
+        "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+        "empresa": {
+            "id": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "name": "Protect Solutions LTDA",
+            "cnpj": "02281027000125",
+            "empresaLogoId": null,
+            "createdAt": "2025-05-05T13:39:23.814Z",
+            "updatedAt": "2025-05-05T13:39:23.814Z",
+            "empresaLogo": null,
+            "empresaLogoSrc": null
+        }
+    }
+}

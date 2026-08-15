@@ -1,0 +1,14 @@
+.my-auditoria-modal-body {
+    height: 80svh !important;
+    max-height: 25rem;
+    min-height: 15rem;
+}
+
+.my-empresa-role-component-img {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
+.my-modal-empresa-role-body{
+    height: max-content !important;
+}

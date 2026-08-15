@@ -1,0 +1,29 @@
+[
+    {
+        "id": "supplierA",
+        "name": "FornecedorA",
+        "createdAt": "2025-04-23T16:36:39.636Z",
+        "updatedAt": "2025-04-23T16:36:39.636Z",
+        "cnpj": "02281027000125",
+        "email": "fornecedorA@fornecedorA.com",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+    },
+    {
+        "id": "supplierB",
+        "name": "FornecedorB",
+        "createdAt": "2025-04-23T16:36:39.636Z",
+        "updatedAt": "2025-04-23T16:36:39.636Z",
+        "cnpj": "02363012000106",
+        "email": "fornecedorB@fornecedorB.com",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+    },
+    {
+        "id": "supplierC",
+        "name": "FornecedorC",
+        "createdAt": "2025-04-23T16:36:39.636Z",
+        "updatedAt": "2025-04-23T16:36:39.636Z",
+        "cnpj": "73015092000157",
+        "email": "fornecedorC@fornecedorC.com",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+    }
+]

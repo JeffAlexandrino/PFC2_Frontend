@@ -1,0 +1,26 @@
+[
+    {
+        "posicao": 1,
+        "categoria": {
+            "id": "categoryA",
+            "name": "Categoria A"
+        },
+        "valorAcumulado": 0
+    },
+    {
+        "posicao": 2,
+        "categoria": {
+            "id": "categoryB",
+            "name": "Categoria B"
+        },
+        "valorAcumulado": 0
+    },
+    {
+        "posicao": 3,
+        "categoria": {
+            "id": "categoryC",
+            "name": "Categoria C"
+        },
+        "valorAcumulado": 0
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "325bffa9-dbe3-4242-b29c-10c49ab302d8",
+        "dataInicioMeta": "2025-04-22T03:00:00.000Z",
+        "userRoleId": "canBeDeletedRole",
+        "dataFimMeta": "2025-04-23T02:59:59.000Z",
+        "createdAt": "2025-04-22T15:02:55.110Z",
+        "updatedAt": "2025-04-22T15:02:55.110Z",
+        "userRole": {
+            "id": "canBeDeletedRole",
+            "createdAt": "2025-04-17T17:50:17.622Z",
+            "updatedAt": "2025-04-17T17:50:17.622Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "SOLUTION_ARCHITECT",
+            "userId": "salePersonA",
+            "empresaId": "095786e3-c3c9-49db-a07e-991f77f0047a"
+        },
+        "tiposMeta": [
+            {
+                "id": "23d814bc-85cd-4ef4-95c2-0094e077c7dd",
+                "tipoMeta": "VALOR_VENDA",
+                "aceleratorTriggerValue": 20000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-22T15:02:55.110Z",
+                "updatedAt": "2025-04-22T15:02:55.110Z",
+                "metaId": "325bffa9-dbe3-4242-b29c-10c49ab302d8",
+                "valorAtingido": 0
+            }
+        ]
+    }
+]

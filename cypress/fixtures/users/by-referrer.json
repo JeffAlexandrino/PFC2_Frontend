@@ -1,0 +1,22 @@
+{
+    "id": "referrer",
+    "name": "Tom Jobim Referrer",
+    "email": "referrer@referrer.com",
+    "isEmailVerified": false,
+    "bloqueado": false,
+    "ativo": true,
+    "createdAt": "2025-04-25T13:13:23.438Z",
+    "updatedAt": "2025-04-25T13:13:23.438Z",
+    "userRoles": [
+        {
+            "id": "referrerRole",
+            "createdAt": "2025-04-25T13:13:23.442Z",
+            "updatedAt": "2025-04-25T13:13:23.442Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "REFERRER",
+            "userId": "referrer",
+            "empresaId": "1f811c0e-1cde-4687-8d47-cf8ed5f326aa"
+        }
+    ]
+}

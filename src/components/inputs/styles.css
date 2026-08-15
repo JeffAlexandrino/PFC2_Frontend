@@ -1,0 +1,30 @@
+.my-button-input {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.my-conteiner-input-nova-venda-produto {
+    user-select: text;
+}
+.my-conteiner-input-nova-venda-servico {
+    user-select: text;
+}
+
+.div-checkbox > *:first-child {
+    border-radius: 3px !important;
+    width: 1rem !important;
+    height: auto !important;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border-color: var(--bs-info) !important;
+}
+.div-checkbox > *:first-child:checked {
+    background-color: var(--bs-info) !important;
+}
+
+.my-form-checkbox {
+    margin: 5px;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+}

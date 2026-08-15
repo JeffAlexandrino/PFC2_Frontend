@@ -1,0 +1,325 @@
+[
+    {
+        "id": "saleD",
+        "dataVenda": "2023-06-15T00:00:00.000Z",
+        "accountManagerId": "salePersonRoleA",
+        "insideSalesId": "salePersonRoleB",
+        "referrerId": "referrerRole",
+        "comercialAssistantId": null,
+        "comercialManagerId": null,
+        "solutionArchitectId": null,
+        "clienteId": "customerB",
+        "numOportunidadeCRM": "oportunidadeB",
+        "numPedidoDistribuidor": "oportunidadeB",
+        "vendaRenovacao": false,
+        "contratoId": null,
+        "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+        "estadoVenda": "INITIAL",
+        "createdAt": "2025-05-05T13:39:23.979Z",
+        "updatedAt": "2025-05-05T13:39:23.979Z",
+        "cliente": {
+            "id": "customerB",
+            "name": "Cliente B",
+            "cnpj": "02363012000106",
+            "createdAt": "2025-05-05T13:39:23.861Z",
+            "updatedAt": "2025-05-05T13:39:23.861Z",
+            "email": "clienteB@clienteB.com",
+            "telefone": "48993214502",
+            "segmentoId": "segmentA",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+        },
+        "accountManager": {
+            "id": "salePersonRoleA",
+            "createdAt": "2025-05-05T13:39:23.824Z",
+            "updatedAt": "2025-05-05T13:39:23.824Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonA",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "user": {
+                "id": "salePersonA",
+                "name": "Alcione Sale Person A",
+                "email": "salePersonA@salePersonA.com",
+                "isEmailVerified": false,
+                "bloqueado": false,
+                "ativo": true,
+                "createdAt": "2025-05-05T13:39:23.820Z",
+                "updatedAt": "2025-05-05T13:39:23.820Z"
+            }
+        },
+        "insideSales": {
+            "id": "salePersonRoleB",
+            "createdAt": "2025-05-05T13:39:23.824Z",
+            "updatedAt": "2025-05-05T13:39:23.824Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonB",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "user": {
+                "id": "salePersonB",
+                "name": "Arnaldo Cruz Sale Person B",
+                "email": "salePersonB@salePersonB.com",
+                "isEmailVerified": false,
+                "bloqueado": false,
+                "ativo": true,
+                "createdAt": "2025-05-05T13:39:23.820Z",
+                "updatedAt": "2025-05-05T13:39:23.820Z"
+            }
+        },
+        "comercialManager": null,
+        "comercialAssistant": null,
+        "solutionArchitect": null,
+        "referrer": {
+            "id": "referrerRole",
+            "createdAt": "2025-05-05T13:39:23.824Z",
+            "updatedAt": "2025-05-05T13:39:23.824Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "REFERRER",
+            "userId": "referrer",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "user": {
+                "id": "referrer",
+                "name": "Tom Jobim Referrer",
+                "email": "referrer@referrer.com",
+                "isEmailVerified": false,
+                "bloqueado": false,
+                "ativo": true,
+                "createdAt": "2025-05-05T13:39:23.820Z",
+                "updatedAt": "2025-05-05T13:39:23.820Z"
+            }
+        },
+        "contrato": null,
+        "metasVendaVendedor": [
+            {
+                "vendaId": "saleD",
+                "percentContribuicaoMeta": 50,
+                "vendedorRoleId": "salePersonRoleA"
+            },
+            {
+                "vendaId": "saleD",
+                "percentContribuicaoMeta": 50,
+                "vendedorRoleId": "salePersonRoleB"
+            }
+        ],
+        "notasVenda": [
+            {
+                "id": "saleDInvoice",
+                "codigo": "notaVendaD",
+                "formaParcelamento": 2,
+                "dataFaturamento": "2023-06-15T00:00:00.300Z",
+                "vendaId": "saleD",
+                "formaPagamentoId": "paymentMethodA",
+                "createdAt": "2025-05-05T13:39:23.982Z",
+                "updatedAt": "2025-05-05T13:39:23.982Z",
+                "comissoes": [
+                    {
+                        "id": "commissionL",
+                        "comissao": 2.5,
+                        "acelerador": 0,
+                        "commissionApproved": false,
+                        "aceleratorApproved": false,
+                        "approvedAt": null,
+                        "dataComissao": "2023-06-15T00:00:00.000Z",
+                        "valorMargemBrutaBase": 4350.63,
+                        "vendaId": "saleD",
+                        "comissaoPaga": false,
+                        "distributorPaid": false,
+                        "notaVendaId": "saleDInvoice",
+                        "userRoleId": "salePersonRoleA",
+                        "updatedAt": "2025-05-05T13:39:23.988Z",
+                        "createdAt": "2025-05-05T13:39:23.988Z"
+                    },
+                    {
+                        "id": "commissionN",
+                        "comissao": 2.5,
+                        "acelerador": 0,
+                        "commissionApproved": false,
+                        "aceleratorApproved": false,
+                        "approvedAt": null,
+                        "dataComissao": "2023-06-15T00:00:00.000Z",
+                        "valorMargemBrutaBase": 4350.63,
+                        "vendaId": "saleD",
+                        "comissaoPaga": false,
+                        "distributorPaid": false,
+                        "notaVendaId": "saleDInvoice",
+                        "userRoleId": "salePersonRoleB",
+                        "updatedAt": "2025-05-05T13:39:23.988Z",
+                        "createdAt": "2025-05-05T13:39:23.988Z"
+                    },
+                    {
+                        "id": "commissionM",
+                        "comissao": 2.5,
+                        "acelerador": 0,
+                        "commissionApproved": false,
+                        "aceleratorApproved": false,
+                        "approvedAt": null,
+                        "dataComissao": "2023-07-15T00:00:00.000Z",
+                        "valorMargemBrutaBase": 4350.63,
+                        "vendaId": "saleD",
+                        "comissaoPaga": false,
+                        "distributorPaid": false,
+                        "notaVendaId": "saleDInvoice",
+                        "userRoleId": "salePersonRoleA",
+                        "updatedAt": "2025-05-05T13:39:23.988Z",
+                        "createdAt": "2025-05-05T13:39:23.988Z"
+                    },
+                    {
+                        "id": "commissionO",
+                        "comissao": 2.5,
+                        "acelerador": 0,
+                        "commissionApproved": false,
+                        "aceleratorApproved": false,
+                        "approvedAt": null,
+                        "dataComissao": "2023-07-15T00:00:00.000Z",
+                        "valorMargemBrutaBase": 4350.63,
+                        "vendaId": "saleD",
+                        "comissaoPaga": false,
+                        "distributorPaid": false,
+                        "notaVendaId": "saleDInvoice",
+                        "userRoleId": "salePersonRoleB",
+                        "updatedAt": "2025-05-05T13:39:23.988Z",
+                        "createdAt": "2025-05-05T13:39:23.988Z"
+                    }
+                ],
+                "formaPagamento": {
+                    "id": "paymentMethodA",
+                    "name": "FormaPagamentoA",
+                    "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                    "createdAt": "2025-05-05T13:39:23.923Z",
+                    "updatedAt": "2025-05-05T13:39:23.923Z"
+                },
+                "datasBoleto": [
+                    {
+                        "id": "1c00cdcf-1fde-4dc4-b939-88ac1325a241",
+                        "data": "2023-06-15T00:00:00.000Z",
+                        "notaVendaId": "saleDInvoice"
+                    },
+                    {
+                        "id": "4577e1d9-c516-48df-8ac4-c750f6866ab6",
+                        "data": "2023-07-15T00:00:00.000Z",
+                        "notaVendaId": "saleDInvoice"
+                    }
+                ],
+                "vendasProduto": [
+                    {
+                        "id": "7cbbc4e9-7244-4b59-ba1c-e60eb2de8f78",
+                        "produtoId": "productC",
+                        "quantidade": 15,
+                        "valorCustoUnit": 1000,
+                        "markup": 40,
+                        "impostoNota": 7,
+                        "cotacao": 1,
+                        "dedutiveisDistribuidor": 500,
+                        "tipoMoeda": "BRL",
+                        "tipoFaturamento": "DIRETO",
+                        "notaVendaId": "saleDInvoice",
+                        "produto": {
+                            "id": "productC",
+                            "name": "Produto C",
+                            "partNumber": "productC",
+                            "ativo": true,
+                            "categoriaId": "categoryB",
+                            "fabricanteId": "manufacturerA",
+                            "createdAt": "2025-05-05T13:39:23.880Z",
+                            "updatedAt": "2025-05-05T13:39:23.880Z",
+                            "tipoProdutoServicoId": "productServiceTypeA",
+                            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                            "categoria": {
+                                "id": "categoryB",
+                                "name": "Categoria B",
+                                "createdAt": "2025-05-05T13:39:23.873Z",
+                                "updatedAt": "2025-05-05T13:39:23.873Z",
+                                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+                            }
+                        },
+                        "fornecedores": [
+                            {
+                                "id": "supplierB",
+                                "name": "FornecedorB",
+                                "createdAt": "2025-05-05T13:39:23.867Z",
+                                "updatedAt": "2025-05-05T13:39:23.867Z",
+                                "cnpj": "02363012000106",
+                                "email": "fornecedorB@fornecedorB.com",
+                                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+                            }
+                        ],
+                        "valorCusto": 15000,
+                        "valorMarkup": 6000,
+                        "valorVenda": 21000,
+                        "valorImpostos": 885,
+                        "valorMarkupLiquido": 5500,
+                        "valorImpostoNota": 385,
+                        "valorMargem": 5115
+                    }
+                ],
+                "vendasServico": [
+                    {
+                        "id": "ae9a5a0a-7f94-4aa2-a7aa-7c51723fefb0",
+                        "servicoId": "serviceB",
+                        "qntdHorasComercial": 100,
+                        "qntdHorasNaoComercial": 25,
+                        "qntdHorasEspecial": 50,
+                        "markup": 40,
+                        "valorCustoHora": 50,
+                        "impostoNota": 7,
+                        "dedutiveisDistribuidor": 0,
+                        "cotacao": 1,
+                        "tipoMoeda": "BRL",
+                        "tipoFaturamento": "REVENDA",
+                        "notaVendaId": "saleDInvoice",
+                        "servico": {
+                            "id": "serviceB",
+                            "name": "Serviço B",
+                            "valorCustoHora": 50,
+                            "observacoes": "Muito importante",
+                            "tipoMoeda": "USD",
+                            "ativo": true,
+                            "createdAt": "2025-05-05T13:39:23.920Z",
+                            "updatedAt": "2025-05-05T13:39:23.920Z",
+                            "tipoProdutoServicoId": "productServiceTypeA",
+                            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+                        },
+                        "valorCusto": 11875,
+                        "valorMarkup": 4750,
+                        "valorVenda": 16625,
+                        "valorImpostos": 1163.75,
+                        "valorMarkupLiquido": 4750,
+                        "valorMargem": 3586.25,
+                        "valorImpostoNota": 1163.75
+                    }
+                ],
+                "valorCustoProdutos": 15000,
+                "valorMarkupProdutos": 6000,
+                "valorMarkupLiqProdutos": 5500,
+                "valorMargemBrutaProdutos": 5115,
+                "valorImpostoProdutos": 885,
+                "valorVendaProdutos": 21000,
+                "valorCustoServicos": 11875,
+                "valorMarkupServicos": 4750,
+                "valorMarkupLiqServicos": 4750,
+                "valorMargemBrutaServicos": 3586.25,
+                "valorImpostoServicos": 1163.75,
+                "valorVendaServicos": 16625,
+                "valorCusto": 26875,
+                "valorMarkup": 10750,
+                "valorMarkupLiquido": 10250,
+                "valorMargemBruta": 8701.25,
+                "valorDedutiveisDistribuidor": 500,
+                "valorImpostoNota": 1548.75,
+                "valorImpostos": 2048.75,
+                "valorVenda": 37625
+            }
+        ],
+        "valorCusto": 26875,
+        "valorMarkup": 10750,
+        "valorMarkupLiquido": 10250,
+        "valorMargemBruta": 8701.25,
+        "valorDedutiveisDistribuidor": 500,
+        "valorImpostoNota": 1548.75,
+        "valorImpostos": 2048.75,
+        "valorVenda": 37625
+    }
+]

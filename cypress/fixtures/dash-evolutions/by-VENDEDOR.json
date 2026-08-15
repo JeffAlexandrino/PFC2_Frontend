@@ -1,0 +1,31 @@
+{
+    "evolucaoAnoAtual": [
+        {
+            "mesAno": "4-2024",
+            "valor": 16479.95,
+            "valorTicketMedio": 8239.975
+        },
+        {
+            "mesAno": "5-2024",
+            "valor": 23776.0625,
+            "valorTicketMedio": 5944.015625
+        },
+        {
+            "mesAno": "6-2024",
+            "valor": 23776.0625,
+            "valorTicketMedio": 5944.015625
+        }
+    ],
+    "evolucaoAnoAnterior": [
+        {
+            "mesAno": "5-2023",
+            "valor": 4350.625,
+            "valorTicketMedio": 4350.625
+        },
+        {
+            "mesAno": "6-2023",
+            "valor": 4350.625,
+            "valorTicketMedio": 4350.625
+        }
+    ]
+}

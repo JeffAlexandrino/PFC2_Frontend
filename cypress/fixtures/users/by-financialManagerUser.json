@@ -1,0 +1,22 @@
+{
+    "id": "financialManagerUser",
+    "name": "Edward Elric Financial Manager",
+    "email": "financialManagerUser@financialUser.com",
+    "isEmailVerified": false,
+    "bloqueado": false,
+    "ativo": true,
+    "createdAt": "2025-10-05T13:39:23.820Z",
+    "updatedAt": "2025-10-05T13:39:23.820Z",
+    "userRoles": [
+        {
+            "id": "financialManagerUserRole",
+            "createdAt": "2025-05-05T13:39:23.824Z",
+            "updatedAt": "2025-05-05T13:39:23.824Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "FINANCIAL_MANAGER",
+            "userId": "financialManagerUser",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+        }
+    ]
+}

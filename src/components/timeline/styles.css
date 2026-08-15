@@ -1,0 +1,37 @@
+.my-div-timeline-root {
+    width: 100%;
+    --space-between: 3.8rem;
+}
+
+.my-div-timeline-row > :nth-last-child(2) > :last-child > :last-child {
+    display: none !important;
+}
+.my-col-timeline-dot {
+    max-width: 5rem !important;
+}
+
+.my-col-timeline-data {
+    min-width: calc(100% - 5rem) !important;
+    margin-bottom: 5px;
+}
+
+.my-label-timeline-data-point {
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: var(--bs-success);
+}
+.my-label-timeline-hora-point {
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: var(--bs-secondary);
+}
+.my-label-timeline-line {
+    width: 2px;
+    background-color: var(--bs-secondary);
+}
+.my-label-timeline-line.my-data {
+    height: calc(100% - 1.7rem);
+}
+.my-label-timeline-line.my-hora {
+    height: calc(100% - 1.4rem);
+}

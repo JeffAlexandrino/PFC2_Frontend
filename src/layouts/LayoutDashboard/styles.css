@@ -1,0 +1,25 @@
+.my-div-layout-dashboard-root {
+    height: 100%;
+    width: 100%;
+    --my-layout-dashboard-height-header: 3.3rem;
+}
+
+.my-div-layout-dashboard-header {
+    height: var(--my-layout-dashboard-height-header);
+    width: 100%;
+}
+
+.my-div-layout-dashboard-body-root {
+    height: calc(100% - var(--my-layout-dashboard-height-header));
+    width: 100%;
+}
+
+.my-placeholder-top {
+    height: 7rem;
+}
+.my-placeholder-right {
+    height: 29rem;
+}
+.my-placeholder-center {
+    height: 21rem;
+}

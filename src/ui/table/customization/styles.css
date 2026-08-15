@@ -1,0 +1,16 @@
+.table-div-customization {
+    display: flex;
+    height: 100%;
+    width: 2.5rem;
+    overflow: hidden;
+    border-left: 5px var(--bs-border-color) solid;
+    background-color: white;
+}
+.table-div-customization > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    height: max-content;
+    border-bottom: 1px var(--bs-border-color) solid;
+}

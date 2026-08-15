@@ -1,0 +1,15 @@
+.date-filter-popover-body {
+    display: flex;
+    width: 15rem;
+    height: max-content;
+    max-height: 23rem;
+}
+
+.table-popover-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

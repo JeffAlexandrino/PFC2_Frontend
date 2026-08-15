@@ -1,0 +1,18 @@
+[
+    {
+        "id": "contractB",
+        "name": "Contrato Microsoft",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "comissaoPrimeiraParcela": false,
+        "createdAt": "2025-04-23T16:36:39.622Z",
+        "updatedAt": "2025-04-23T16:36:39.622Z"
+    },
+    {
+        "id": "contractA",
+        "name": "Contrato Suporte",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "comissaoPrimeiraParcela": true,
+        "createdAt": "2025-04-23T16:36:39.622Z",
+        "updatedAt": "2025-04-23T16:36:39.622Z"
+    }
+]

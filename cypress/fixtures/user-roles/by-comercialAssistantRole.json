@@ -1,0 +1,22 @@
+[
+    {
+        "id": "comercialAssistantRole",
+        "createdAt": "2025-04-12T16:53:20.702Z",
+        "updatedAt": "2025-04-12T16:53:20.702Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "COMERCIAL_ASSISTANT",
+        "userId": "comercialAssistant",
+        "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+        "user": {
+            "id": "comercialAssistant",
+            "name": "Djavan Comercial Assistant",
+            "email": "comercialAssistant@comercialAssistant.com",
+            "isEmailVerified": false,
+            "bloqueado": false,
+            "ativo": true,
+            "createdAt": "2025-04-12T16:53:20.689Z",
+            "updatedAt": "2025-04-12T16:53:20.689Z"
+        }
+    }
+]

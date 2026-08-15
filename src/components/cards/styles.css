@@ -1,0 +1,205 @@
+/* CardsTop */
+.my-div-card-rank-root {
+    height: 4rem;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: 2rem 1fr 1fr !important;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.my-div-card-rank-cliente-root {
+    height: 4rem;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: 2rem 2fr 7fr 3fr !important;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.my-div-card-rank-icon {
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+}
+.my-div-card-rank-nome {
+    max-width: 100%;
+    min-width: 0px;
+    text-wrap: nowrap;
+}
+.my-div-card-rank-valor {
+    width: 100%;
+    min-width: max-content !important;
+    display: flex;
+    flex-shrink: 0;
+}
+.my-div-card-rank-informacoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CardLogin */
+.my-card-login {
+    width: 100%;
+    max-width: 24rem;
+    height: max-content;
+}
+
+/* CardRecuperarSenha */
+.my-card-recuperar-senha {
+    width: 100%;
+    max-width: 24rem;
+    height: max-content;
+}
+.my-card-recuperar-senha-text-info {
+    text-align: justify !important;
+}
+
+/* CardCriarNovaSenha */
+.my-card-criar-nova-senha {
+    width: 100%;
+    max-width: 24rem;
+    height: max-content;
+}
+
+/* CardMetaAtingida */
+.my-card-meta-atingida {
+    background: linear-gradient(0.35turn, var(--bs-meta-atingida-light), var(--bs-meta-atingida));
+}
+
+/* CardTopClientes */
+.my-card-top-clientes {
+    height: 29rem;
+    background: #015ca2;
+    --header-height: 2rem;
+}
+
+/* CardHistoricoFaturamento */
+.my-div-evolucao-faturamento-root {
+    height: 100%;
+    min-height: 35rem;
+    background: #015ca2;
+    --header-height: 2rem;
+}
+.my-div-evolucao-faturamento-header {
+    height: var(--header-height);
+}
+.my-div-evolucao-faturamento-grafico {
+    height: calc(100% - var(--header-height));
+}
+
+/* CardRankCategoriaPorVenda */
+.my-div-faturamento-categorias-root {
+    height: 29rem;
+    background: #015ca2;
+}
+
+/* CardTopVendedores */
+.my-card-top-vendedores {
+    height: 29rem;
+    background: #015ca2;
+}
+.my-div-card-top-vendedores-venda-renovacao {
+    height: 0.25rem !important;
+    transition: height 300ms;
+}
+.my-div-card-top-vendedores-venda-renovacao.show-more {
+    height: 4rem !important;
+    max-height: 4rem !important;
+}
+
+/* CardTiposProdServ */
+.my-div-produto-vs-servico-root {
+    height: 20rem;
+    background: #015ca2;
+    --header-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.my-div-produto-vs-servico-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.my-div-produto-vs-servico-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.my-div-produto-vs-servico-chart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.my-div-produto-vs-servico-chart {
+    width: 240px;
+    height: 240px;
+    position: relative;
+}
+
+.my-div-produto-vs-servico-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.my-div-produto-vs-servico-total {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.my-div-produto-vs-servico-total-label {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.my-div-produto-vs-servico-legenda {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.my-div-produto-vs-servico-legenda-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.my-div-produto-vs-servico-legenda-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.my-div-produto-vs-servico-legenda-texto {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* CardDashboard */
+.my-card-dashboard-red {
+    background: linear-gradient(0.6turn, var(--bs-dash-red), var(--bs-dash-red-light));
+}
+.my-card-dashboard-orange {
+    background: linear-gradient(0.35turn, var(--bs-dash-orange), var(--bs-dash-orange-light));
+}
+.my-card-dashboard-green {
+    background: linear-gradient(0.45turn, var(--bs-dash-green), var(--bs-dash-green-light));
+}
+.my-card-dashboard-blue {
+    background: linear-gradient(0.45turn, var(--bs-dash-blue), var(--bs-dash-blue-light));
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "5aadaac9-c330-46ee-833f-de523238862f",
+        "dataInicioMeta": "2025-04-22T03:00:00.000Z",
+        "userRoleId": "solutionArchitectRole",
+        "dataFimMeta": "2025-04-23T02:59:59.000Z",
+        "createdAt": "2025-04-22T15:04:12.639Z",
+        "updatedAt": "2025-04-22T15:04:12.639Z",
+        "userRole": {
+            "id": "solutionArchitectRole",
+            "createdAt": "2025-04-17T17:50:17.622Z",
+            "updatedAt": "2025-04-17T17:50:17.622Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "SOLUTION_ARCHITECT",
+            "userId": "solutionArchitect",
+            "empresaId": "095786e3-c3c9-49db-a07e-991f77f0047a"
+        },
+        "tiposMeta": [
+            {
+                "id": "58ee3d59-5d5b-4e0e-96f0-6ebf71e3ac92",
+                "tipoMeta": "MARGEM",
+                "aceleratorTriggerValue": 2000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-22T15:04:12.639Z",
+                "updatedAt": "2025-04-22T15:04:12.639Z",
+                "metaId": "5aadaac9-c330-46ee-833f-de523238862f",
+                "valorAtingido": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "id": "productA",
+        "name": "Produto A",
+        "partNumber": "productA",
+        "ativo": true,
+        "categoriaId": "categoryA",
+        "fabricanteId": "manufacturerA",
+        "createdAt": "2025-04-23T16:36:39.664Z",
+        "updatedAt": "2025-04-23T16:36:39.664Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "custoUnit": "1000",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "fabricante": {
+            "id": "manufacturerA",
+            "name": "Fabricante A",
+            "createdAt": "2025-04-23T16:36:39.644Z",
+            "updatedAt": "2025-04-23T16:36:39.644Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "categoria": {
+            "id": "categoryA",
+            "name": "Categoria A",
+            "createdAt": "2025-04-23T16:36:39.651Z",
+            "updatedAt": "2025-04-23T16:36:39.651Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "productB",
+        "name": "Produto B",
+        "partNumber": "procutB",
+        "ativo": true,
+        "categoriaId": "categoryB",
+        "fabricanteId": "manufacturerA",
+        "createdAt": "2025-04-23T16:36:39.664Z",
+        "updatedAt": "2025-04-23T16:36:39.664Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "custoUnit": "1000",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "fabricante": {
+            "id": "manufacturerA",
+            "name": "Fabricante A",
+            "createdAt": "2025-04-23T16:36:39.644Z",
+            "updatedAt": "2025-04-23T16:36:39.644Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "categoria": {
+            "id": "categoryB",
+            "name": "Categoria B",
+            "createdAt": "2025-04-23T16:36:39.651Z",
+            "updatedAt": "2025-04-23T16:36:39.651Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "productC",
+        "name": "Produto C",
+        "partNumber": "productC",
+        "ativo": true,
+        "categoriaId": "categoryB",
+        "fabricanteId": "manufacturerA",
+        "createdAt": "2025-04-23T16:36:39.664Z",
+        "updatedAt": "2025-04-23T16:36:39.664Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "custoUnit": "1000",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "fabricante": {
+            "id": "manufacturerA",
+            "name": "Fabricante A",
+            "createdAt": "2025-04-23T16:36:39.644Z",
+            "updatedAt": "2025-04-23T16:36:39.644Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "categoria": {
+            "id": "categoryB",
+            "name": "Categoria B",
+            "createdAt": "2025-04-23T16:36:39.651Z",
+            "updatedAt": "2025-04-23T16:36:39.651Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "productD",
+        "name": "Produto D",
+        "partNumber": "productD",
+        "ativo": true,
+        "categoriaId": "categoryA",
+        "fabricanteId": "manufacturerA",
+        "createdAt": "2025-04-23T16:36:39.664Z",
+        "updatedAt": "2025-04-23T16:36:39.664Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "custoUnit": "1000",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "fabricante": {
+            "id": "manufacturerA",
+            "name": "Fabricante A",
+            "createdAt": "2025-04-23T16:36:39.644Z",
+            "updatedAt": "2025-04-23T16:36:39.644Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        },
+        "categoria": {
+            "id": "categoryA",
+            "name": "Categoria A",
+            "createdAt": "2025-04-23T16:36:39.651Z",
+            "updatedAt": "2025-04-23T16:36:39.651Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    }
+]

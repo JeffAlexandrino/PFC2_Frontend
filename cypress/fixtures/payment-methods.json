@@ -1,0 +1,16 @@
+[
+    {
+        "id": "paymentMethodA",
+        "name": "FormaPagamentoA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "createdAt": "2025-04-23T16:36:39.734Z",
+        "updatedAt": "2025-04-23T16:36:39.734Z"
+    },
+    {
+        "id": "paymentMethodB",
+        "name": "FormaPagamentoB",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "createdAt": "2025-04-23T16:36:39.734Z",
+        "updatedAt": "2025-04-23T16:36:39.734Z"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "posicao": 1,
+        "userRole": {
+            "id": "comercialAssistantRole",
+            "user": {
+                "name": "Djavan Comercial Assistant",
+                "id": "comercialAssistant",
+                "email": "comercialAssistant@comercialAssistant.com"
+            }
+        },
+        "valorAcumulado": 64032.07500000001,
+        "valorAcumuladoVendaRenovacao": 6352.424999999999,
+        "valorAcumuladoVendaNova": 57679.65000000001
+    },
+    {
+        "posicao": 2,
+        "userRole": {
+            "id": "superUserComercialAssistantRole",
+            "user": {
+                "name": "Pelé Super User",
+                "id": "superUser",
+                "email": "superUser@superUser.com"
+            }
+        },
+        "valorAcumulado": 0,
+        "valorAcumuladoVendaRenovacao": 0,
+        "valorAcumuladoVendaNova": 0
+    }
+]

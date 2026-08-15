@@ -1,0 +1,424 @@
+[
+    {
+        "id": "3f5ae5d4-7fd8-416a-afbd-815bf748b0e5",
+        "comissao": 0.5,
+        "acelerador": 0,
+        "commissionApproved": false,
+        "aceleratorApproved": false,
+        "approvedAt": null,
+        "dataComissao": "2023-07-15T00:00:00.000Z",
+        "valorMargemBrutaBase": 4350.625,
+        "vendaId": "saleD",
+        "comissaoPaga": false,
+        "distributorPaid": false,
+        "notaVendaId": "539a68ee-81f3-4fc3-a0be-c517cdb4b21a",
+        "userRoleId": "referrerRole",
+        "updatedAt": "2025-05-05T14:53:07.638Z",
+        "createdAt": "2025-05-05T14:53:07.638Z",
+        "userRole": {
+            "id": "referrerRole",
+            "createdAt": "2025-05-05T13:39:23.824Z",
+            "updatedAt": "2025-05-05T13:39:23.824Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "REFERRER",
+            "userId": "referrer",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "user": {
+                "id": "referrer",
+                "name": "Tom Jobim Referrer",
+                "email": "referrer@referrer.com",
+                "isEmailVerified": false,
+                "bloqueado": false,
+                "ativo": true,
+                "createdAt": "2025-05-05T13:39:23.820Z",
+                "updatedAt": "2025-05-05T13:39:23.820Z"
+            }
+        },
+        "venda": {
+            "id": "saleD",
+            "dataVenda": "2023-06-15T00:00:00.000Z",
+            "accountManagerId": "salePersonRoleA",
+            "insideSalesId": "salePersonRoleB",
+            "referrerId": "referrerRole",
+            "comercialAssistantId": null,
+            "comercialManagerId": "comercialManagerRole",
+            "solutionArchitectId": null,
+            "clienteId": "customerB",
+            "numOportunidadeCRM": "oportunidadeB",
+            "numPedidoDistribuidor": "oportunidadeB",
+            "vendaRenovacao": false,
+            "contratoId": null,
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "estadoVenda": "INITIAL",
+            "createdAt": "2025-05-05T13:39:23.979Z",
+            "updatedAt": "2025-05-05T14:53:07.638Z",
+            "cliente": {
+                "id": "customerB",
+                "name": "Cliente B",
+                "cnpj": "02363012000106",
+                "createdAt": "2025-05-05T13:39:23.861Z",
+                "updatedAt": "2025-05-05T13:39:23.861Z",
+                "email": "clienteB@clienteB.com",
+                "telefone": "48993214502",
+                "segmentoId": "segmentA",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            },
+            "accountManager": {
+                "id": "salePersonRoleA",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonA",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                "user": {
+                    "id": "salePersonA",
+                    "name": "Alcione Sale Person A",
+                    "email": "salePersonA@salePersonA.com",
+                    "isEmailVerified": false,
+                    "bloqueado": false,
+                    "ativo": true,
+                    "createdAt": "2025-05-05T13:39:23.820Z",
+                    "updatedAt": "2025-05-05T13:39:23.820Z"
+                }
+            },
+            "insideSales": {
+                "id": "salePersonRoleB",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonB",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                "user": {
+                    "id": "salePersonB",
+                    "name": "Arnaldo Cruz Sale Person B",
+                    "email": "salePersonB@salePersonB.com",
+                    "isEmailVerified": false,
+                    "bloqueado": false,
+                    "ativo": true,
+                    "createdAt": "2025-05-05T13:39:23.820Z",
+                    "updatedAt": "2025-05-05T13:39:23.820Z"
+                }
+            },
+            "referrer": {
+                "id": "referrerRole",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "REFERRER",
+                "userId": "referrer",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                "user": {
+                    "id": "referrer",
+                    "name": "Tom Jobim Referrer",
+                    "email": "referrer@referrer.com",
+                    "isEmailVerified": false,
+                    "bloqueado": false,
+                    "ativo": true,
+                    "createdAt": "2025-05-05T13:39:23.820Z",
+                    "updatedAt": "2025-05-05T13:39:23.820Z"
+                }
+            },
+            "solutionArchitect": null,
+            "comercialAssistant": null,
+            "contrato": null
+        },
+        "notaVenda": {
+            "id": "539a68ee-81f3-4fc3-a0be-c517cdb4b21a",
+            "codigo": "notaVendaD",
+            "formaParcelamento": 2,
+            "dataFaturamento": "2023-06-15T00:00:00.300Z",
+            "vendaId": "saleD",
+            "formaPagamentoId": "paymentMethodA",
+            "createdAt": "2025-05-05T14:53:07.638Z",
+            "updatedAt": "2025-05-05T14:53:07.638Z",
+            "vendasProduto": [
+                {
+                    "id": "669f98e7-32d8-4e0d-b31b-5b0e0b852c3f",
+                    "fornecedores": [
+                        {
+                            "id": "supplierB",
+                            "name": "FornecedorB",
+                            "createdAt": "2025-05-05T13:39:23.867Z",
+                            "updatedAt": "2025-05-05T13:39:23.867Z",
+                            "cnpj": "02363012000106",
+                            "email": "fornecedorB@fornecedorB.com",
+                            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+                        }
+                    ]
+                }
+            ],
+            "vendasServico": [
+                {
+                    "id": "54e2970d-c29d-4b0d-82a5-6c4347c076d2"
+                }
+            ],
+            "comissoes": [
+                {
+                    "id": "e8f66e4c-7c03-49f1-ae85-b640ab7e5366",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "referrerRole"
+                },
+                {
+                    "id": "09663136-27a2-49d7-a7cf-4402a9c31f4e",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "comercialManagerRole"
+                },
+                {
+                    "id": "509faca0-e20c-4ebf-8e24-645fb6786dca",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleA"
+                },
+                {
+                    "id": "31938cf7-69ca-4a27-84be-cfdb6232ae03",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleB"
+                },
+                {
+                    "id": "3f5ae5d4-7fd8-416a-afbd-815bf748b0e5",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "referrerRole"
+                },
+                {
+                    "id": "57f6644f-4752-44fd-b772-e88561316a0f",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "comercialManagerRole"
+                },
+                {
+                    "id": "05f67279-08fa-407f-b7c7-38b1eb4d4060",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleA"
+                },
+                {
+                    "id": "eced620d-b44c-406c-8ceb-2d6361ad3285",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleB"
+                }
+            ]
+        }
+    },
+    {
+        "id": "e8f66e4c-7c03-49f1-ae85-b640ab7e5366",
+        "comissao": 0.5,
+        "acelerador": 0,
+        "commissionApproved": false,
+        "aceleratorApproved": false,
+        "approvedAt": null,
+        "dataComissao": "2023-06-15T00:00:00.000Z",
+        "valorMargemBrutaBase": 4350.625,
+        "vendaId": "saleD",
+        "comissaoPaga": false,
+        "distributorPaid": false,
+        "notaVendaId": "539a68ee-81f3-4fc3-a0be-c517cdb4b21a",
+        "userRoleId": "referrerRole",
+        "updatedAt": "2025-05-05T14:53:07.638Z",
+        "createdAt": "2025-05-05T14:53:07.638Z",
+        "userRole": {
+            "id": "referrerRole",
+            "createdAt": "2025-05-05T13:39:23.824Z",
+            "updatedAt": "2025-05-05T13:39:23.824Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "REFERRER",
+            "userId": "referrer",
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "user": {
+                "id": "referrer",
+                "name": "Tom Jobim Referrer",
+                "email": "referrer@referrer.com",
+                "isEmailVerified": false,
+                "bloqueado": false,
+                "ativo": true,
+                "createdAt": "2025-05-05T13:39:23.820Z",
+                "updatedAt": "2025-05-05T13:39:23.820Z"
+            }
+        },
+        "venda": {
+            "id": "saleD",
+            "dataVenda": "2023-06-15T00:00:00.000Z",
+            "accountManagerId": "salePersonRoleA",
+            "insideSalesId": "salePersonRoleB",
+            "referrerId": "referrerRole",
+            "comercialAssistantId": null,
+            "comercialManagerId": "comercialManagerRole",
+            "solutionArchitectId": null,
+            "clienteId": "customerB",
+            "numOportunidadeCRM": "oportunidadeB",
+            "numPedidoDistribuidor": "oportunidadeB",
+            "vendaRenovacao": false,
+            "contratoId": null,
+            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "estadoVenda": "INITIAL",
+            "createdAt": "2025-05-05T13:39:23.979Z",
+            "updatedAt": "2025-05-05T14:53:07.638Z",
+            "cliente": {
+                "id": "customerB",
+                "name": "Cliente B",
+                "cnpj": "02363012000106",
+                "createdAt": "2025-05-05T13:39:23.861Z",
+                "updatedAt": "2025-05-05T13:39:23.861Z",
+                "email": "clienteB@clienteB.com",
+                "telefone": "48993214502",
+                "segmentoId": "segmentA",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            },
+            "accountManager": {
+                "id": "salePersonRoleA",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonA",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                "user": {
+                    "id": "salePersonA",
+                    "name": "Alcione Sale Person A",
+                    "email": "salePersonA@salePersonA.com",
+                    "isEmailVerified": false,
+                    "bloqueado": false,
+                    "ativo": true,
+                    "createdAt": "2025-05-05T13:39:23.820Z",
+                    "updatedAt": "2025-05-05T13:39:23.820Z"
+                }
+            },
+            "insideSales": {
+                "id": "salePersonRoleB",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonB",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                "user": {
+                    "id": "salePersonB",
+                    "name": "Arnaldo Cruz Sale Person B",
+                    "email": "salePersonB@salePersonB.com",
+                    "isEmailVerified": false,
+                    "bloqueado": false,
+                    "ativo": true,
+                    "createdAt": "2025-05-05T13:39:23.820Z",
+                    "updatedAt": "2025-05-05T13:39:23.820Z"
+                }
+            },
+            "referrer": {
+                "id": "referrerRole",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "REFERRER",
+                "userId": "referrer",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+                "user": {
+                    "id": "referrer",
+                    "name": "Tom Jobim Referrer",
+                    "email": "referrer@referrer.com",
+                    "isEmailVerified": false,
+                    "bloqueado": false,
+                    "ativo": true,
+                    "createdAt": "2025-05-05T13:39:23.820Z",
+                    "updatedAt": "2025-05-05T13:39:23.820Z"
+                }
+            },
+            "solutionArchitect": null,
+            "comercialAssistant": null,
+            "contrato": null
+        },
+        "notaVenda": {
+            "id": "539a68ee-81f3-4fc3-a0be-c517cdb4b21a",
+            "codigo": "notaVendaD",
+            "formaParcelamento": 2,
+            "dataFaturamento": "2023-06-15T00:00:00.300Z",
+            "vendaId": "saleD",
+            "formaPagamentoId": "paymentMethodA",
+            "createdAt": "2025-05-05T14:53:07.638Z",
+            "updatedAt": "2025-05-05T14:53:07.638Z",
+            "vendasProduto": [
+                {
+                    "id": "669f98e7-32d8-4e0d-b31b-5b0e0b852c3f",
+                    "fornecedores": [
+                        {
+                            "id": "supplierB",
+                            "name": "FornecedorB",
+                            "createdAt": "2025-05-05T13:39:23.867Z",
+                            "updatedAt": "2025-05-05T13:39:23.867Z",
+                            "cnpj": "02363012000106",
+                            "email": "fornecedorB@fornecedorB.com",
+                            "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+                        }
+                    ]
+                }
+            ],
+            "vendasServico": [
+                {
+                    "id": "54e2970d-c29d-4b0d-82a5-6c4347c076d2"
+                }
+            ],
+            "comissoes": [
+                {
+                    "id": "e8f66e4c-7c03-49f1-ae85-b640ab7e5366",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "referrerRole"
+                },
+                {
+                    "id": "09663136-27a2-49d7-a7cf-4402a9c31f4e",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "comercialManagerRole"
+                },
+                {
+                    "id": "509faca0-e20c-4ebf-8e24-645fb6786dca",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleA"
+                },
+                {
+                    "id": "31938cf7-69ca-4a27-84be-cfdb6232ae03",
+                    "dataComissao": "2023-06-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleB"
+                },
+                {
+                    "id": "3f5ae5d4-7fd8-416a-afbd-815bf748b0e5",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "referrerRole"
+                },
+                {
+                    "id": "57f6644f-4752-44fd-b772-e88561316a0f",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "comercialManagerRole"
+                },
+                {
+                    "id": "05f67279-08fa-407f-b7c7-38b1eb4d4060",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleA"
+                },
+                {
+                    "id": "eced620d-b44c-406c-8ceb-2d6361ad3285",
+                    "dataComissao": "2023-07-15T00:00:00.000Z",
+                    "comissaoPaga": false,
+                    "userRoleId": "salePersonRoleB"
+                }
+            ]
+        }
+    }
+]

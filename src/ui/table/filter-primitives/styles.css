@@ -1,0 +1,7 @@
+.form-control.active {
+    outline: 2px var(--bs-primary-75) solid !important;
+}
+
+.filter-control{
+    min-width: 8rem;
+}

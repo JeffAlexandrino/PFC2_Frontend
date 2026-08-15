@@ -1,0 +1,20 @@
+.my-navlink-item-menu {
+    height: 3.8rem;
+    width: 100%;
+    flex-shrink: 0;
+    transition: background-color 300ms;
+}
+.my-navlink-item-menu:hover {
+    background-color: var(--bs-success-75) !important;
+}
+.my-navlink-item-menu:active {
+    background-color: var(--bs-success-50) !important;
+}
+
+.my-navlink-item-menu.my-navlink-disabled{
+    background-color: var(--bs-secondary-25) !important;
+}
+
+.my-link:hover {
+    color: var(--bs-info-light) !important;
+}

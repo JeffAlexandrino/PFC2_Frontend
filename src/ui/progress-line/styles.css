@@ -1,0 +1,127 @@
+/*
+    PROGRESS LIST
+*/
+.progress-line-list {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+}
+
+.progress-line-list > * {
+    width: 100%;
+    --size-dot: 2.1rem;
+    --height-dot-divider: 0.3rem;
+}
+
+.progress-line-list > :last-child {
+    width: auto !important;
+}
+
+.progress-line-list > :first-child > * > .progress-line-step-span {
+    left: 0px !important;
+    right: none !important;
+    transform: translateX(0px) !important;
+}
+
+.progress-line-list > :last-child > * > .progress-line-step-span {
+    left: 100% !important;
+    left: none !important;
+    transform: translateX(-100%) !important;
+}
+
+/*
+    STEP
+*/
+.progress-line-step {
+    position: relative;
+    z-index: 5;
+    display: flex;
+}
+
+.progress-line-step::marker {
+    content: none !important;
+}
+
+.progress-line-step-dot-background {
+    position: relative;
+    display: flex;
+    background-color: var(--bs-secondary);
+    border-radius: 100%;
+    z-index: 10;
+}
+
+.progress-line-step-dot {
+    background-color: transparent;
+    height: var(--size-dot);
+    width: var(--size-dot);
+    border-radius: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    z-index: 10;
+}
+
+.progress-line-step-dot-divider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: var(--height-dot-divider);
+    background: var(--bs-secondary);
+}
+
+.progress-line-step-dot-ping {
+    position: absolute;
+    display: none;
+    height: var(--size-dot);
+    width: var(--size-dot);
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    border-radius: 100%;
+    background-color: var(--bs-success);
+}
+
+.progress-line-step-span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2.5rem;
+    text-wrap: nowrap;
+    bottom: 0px;
+    opacity: 100% !important;
+}
+
+.progress-line-step.active > * > .progress-line-step-span {
+    display: flex;
+}
+
+.progress-line-step.active > .progress-line-step-dot-background {
+    background-color: var(--bs-success);
+}
+
+.progress-line-step.completed > .progress-line-step-dot-background {
+    background-color: var(--bs-success);
+}
+
+.progress-line-step.completed > .progress-line-step-dot-divider {
+    background-color: var(--bs-success);
+}
+
+.progress-line-step.active > * > .progress-line-step-dot-ping {
+    display: flex;
+    opacity: 100%;
+}
+
+@keyframes ping {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}

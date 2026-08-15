@@ -1,0 +1,19 @@
+.my-dropdown-item {
+    user-select: none;
+    width: max-content;
+    height: max-content;
+    transition: border 300ms;
+}
+
+.my-dropdown-item:hover {
+    border-color: var(--bs-primary) !important;
+}
+
+.my-dropdown-menu {
+    width: max-content;
+    max-width: 25rem;
+    max-height: 60svh;
+    height: max-content;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

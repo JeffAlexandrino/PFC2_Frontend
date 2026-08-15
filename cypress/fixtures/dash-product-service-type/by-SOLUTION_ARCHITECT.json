@@ -1,0 +1,16 @@
+[
+    {
+        "tipoProdServ": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A"
+        },
+        "valorAcumulado": 6352.425
+    },
+    {
+        "tipoProdServ": {
+            "id": "productServiceTypeB",
+            "name": "Tipo Produto Servico B"
+        },
+        "valorAcumulado": 0
+    }
+]

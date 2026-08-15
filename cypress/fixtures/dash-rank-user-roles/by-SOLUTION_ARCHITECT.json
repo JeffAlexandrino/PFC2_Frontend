@@ -1,0 +1,44 @@
+[
+    {
+        "posicao": 1,
+        "userRole": {
+            "id": "solutionArchitectRole",
+            "user": {
+                "name": "Roberto Carlos Solution Architect",
+                "id": "solutionArchitect",
+                "email": "solutionArchitect@solutionArchitect.com"
+            }
+        },
+        "valorAcumulado": 6352.424999999999,
+        "valorAcumuladoVendaRenovacao": 6352.424999999999,
+        "valorAcumuladoVendaNova": 0
+    },
+    {
+        "posicao": 2,
+        "userRole": {
+            "id": "canBeDeletedRole",
+            "user": {
+                "name": "Alcione Sale Person A",
+                "id": "salePersonA",
+                "email": "salePersonA@salePersonA.com"
+            }
+        },
+        "valorAcumulado": 0,
+        "valorAcumuladoVendaRenovacao": 0,
+        "valorAcumuladoVendaNova": 0
+    },
+    {
+        "posicao": 3,
+        "userRole": {
+            "id": "superUserSolutionArchitectRole",
+            "user": {
+                "name": "Pelé Super User",
+                "id": "superUser",
+                "email": "superUser@superUser.com"
+            }
+        },
+        "valorAcumulado": 0,
+        "valorAcumuladoVendaRenovacao": 0,
+        "valorAcumuladoVendaNova": 0
+    }
+]

@@ -1,0 +1,17 @@
+.div-header-title {
+    display: flex;
+    height: var(--header-row-section-height);
+    width: 100%;
+    border-bottom: 1px var(--bs-border-color) solid;
+    padding-inline: 0.5rem;
+    padding-block: 0.2rem;
+}
+.div-header-filter {
+    display: flex;
+    height: var(--header-row-section-height);
+    width: 100%;
+    min-width: 8rem;
+    padding-inline: 0.8rem;
+    padding-block: 0.2rem;
+    gap: 0.3rem;
+}

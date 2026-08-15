@@ -1,0 +1,177 @@
+/* TotalValueDashboardCard */
+.total-value-card {
+    border-radius: 20px;
+    background: #015ca2;
+    padding: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    color: #ffffff;
+    position: relative;
+    height: 400px;
+}
+
+.despesa-saida-card {
+    border-radius: 20px;
+    background: #015ca2;
+    padding: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    color: #ffffff;
+    position: relative;
+    height: 275px;
+}
+
+.total-value-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.total-value-spam {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.total-value-icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    font-size: 4rem;
+}
+
+.total-value-value {
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+}
+
+.total-value-comparison {
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 8px;
+}
+.total-value-comparison.positive {
+    background: #21ab82;
+}
+.total-value-comparison.negative {
+    background: #9e2a2b;
+}
+/* -------------------------------------------- */
+
+/* TotalTicketDashboardCard*/
+.total-ticket-card {
+    border-radius: 20px;
+    background: #015ca2;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    color: #ffffff;
+}
+
+.total-ticket-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.total-ticket-spam {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.total-ticket-icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    font-size: 4rem;
+}
+
+.total-ticket-value {
+    font-size: 4.5rem;
+    letter-spacing: -1px;
+}
+
+.total-value {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+}
+
+.total-ticket-comparison {
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 8px;
+}
+.total-ticket-comparison.positive {
+    background: #21ab82;
+}
+.total-ticket-comparison.negative {
+    background: #9e2a2b;
+}
+/* -------------------------------------------- */
+
+/* MetaDashboardCard */
+.meta-card {
+    border-radius: 20px;
+    background: #015ca2;
+    padding: 15px;
+    min-height: 170px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    color: #ffffff;
+    position: relative;
+}
+
+.meta-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.meta-spam {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.meta-icon {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 4rem;
+}
+
+.meta-value {
+    font-size: 2rem;
+    letter-spacing: -1px;
+}
+
+.meta-progress {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.95;
+}
+
+.meta-divider {
+    opacity: 0.7;
+}
+
+.comparison {
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 8px;
+}
+.comparison.positive {
+    background: #21ab82;
+}
+.comparison.negative {
+    background: #9e2a2b;
+}

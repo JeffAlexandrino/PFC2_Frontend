@@ -1,0 +1,59 @@
+[
+    {
+        "id": "serviceA",
+        "name": "Serviço A",
+        "valorCustoHora": 45,
+        "observacoes": " importante",
+        "tipoMoeda": "BRL",
+        "ativo": true,
+        "createdAt": "2025-04-23T16:36:39.726Z",
+        "updatedAt": "2025-04-23T16:36:39.726Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "serviceB",
+        "name": "Serviço B",
+        "valorCustoHora": 50,
+        "observacoes": "Muito importante",
+        "tipoMoeda": "USD",
+        "ativo": true,
+        "createdAt": "2025-04-23T16:36:39.726Z",
+        "updatedAt": "2025-04-23T16:36:39.726Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "serviceC",
+        "name": "Serviço C",
+        "valorCustoHora": 55,
+        "observacoes": "Nao existe em nenhuma venda",
+        "tipoMoeda": "USD",
+        "ativo": true,
+        "createdAt": "2025-04-23T16:36:39.726Z",
+        "updatedAt": "2025-04-23T16:36:39.726Z",
+        "tipoProdutoServicoId": "productServiceTypeA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "tipoProdutoServico": {
+            "id": "productServiceTypeA",
+            "name": "Tipo Produto Servico A",
+            "createdAt": "2025-04-23T16:36:39.657Z",
+            "updatedAt": "2025-04-23T16:36:39.657Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    }
+]

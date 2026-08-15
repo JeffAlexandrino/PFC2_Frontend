@@ -1,0 +1,8 @@
+.ui-popover-body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: max-content;
+    max-height: 20rem;
+}

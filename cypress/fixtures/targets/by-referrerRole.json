@@ -1,0 +1,32 @@
+[
+    {
+        "id": "referrerTarget",
+        "dataInicioMeta": "2023-05-01T00:00:00.000Z",
+        "userRoleId": "referrerRole",
+        "dataFimMeta": "2023-05-30T00:00:00.000Z",
+        "createdAt": "2025-04-25T13:13:23.542Z",
+        "updatedAt": "2025-04-25T13:13:23.542Z",
+        "userRole": {
+            "id": "referrerRole",
+            "createdAt": "2025-04-25T13:13:23.442Z",
+            "updatedAt": "2025-04-25T13:13:23.442Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "REFERRER",
+            "userId": "referrer",
+            "empresaId": "1f811c0e-1cde-4687-8d47-cf8ed5f326aa"
+        },
+        "tiposMeta": [
+            {
+                "id": "a7b02fa2-5e6d-4f13-b2e6-311eab8166ac",
+                "tipoMeta": "FATURAMENTO",
+                "aceleratorTriggerValue": 50000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-25T13:13:23.542Z",
+                "updatedAt": "2025-04-25T13:13:23.542Z",
+                "metaId": "referrerTarget",
+                "valorAtingido": 0
+            }
+        ]
+    }
+]

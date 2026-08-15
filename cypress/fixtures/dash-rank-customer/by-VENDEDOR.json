@@ -1,0 +1,123 @@
+[
+    {
+        "cliente": {
+            "id": "customerA",
+            "name": "Cliente A",
+            "cnpj": "02281027000125",
+            "createdAt": "2025-04-12T16:53:20.815Z",
+            "updatedAt": "2025-04-12T16:53:20.815Z",
+            "email": "clienteA@clienteA.com",
+            "telefone": "48993214502",
+            "segmentoId": "segmentA",
+            "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+            "segmento": {
+                "id": "segmentA",
+                "name": "Segmento A"
+            },
+            "visitas": [
+                {
+                    "id": "visitA",
+                    "dataVisita": "2024-05-18T00:00:00.000Z",
+                    "carroEmpresa": true,
+                    "kmInicial": 1000,
+                    "kmFinal": 1100,
+                    "comentarios": "comentario A",
+                    "visitaPaga": true,
+                    "remoto": false,
+                    "clienteId": "customerA",
+                    "salePersonId": "salePersonRoleA",
+                    "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+                    "createdAt": "2025-04-12T16:53:21.176Z",
+                    "updatedAt": "2025-04-12T16:53:21.176Z"
+                },
+                {
+                    "id": "visitB",
+                    "dataVisita": "2024-06-19T00:00:00.000Z",
+                    "carroEmpresa": false,
+                    "kmInicial": null,
+                    "kmFinal": null,
+                    "comentarios": "Beeeetee",
+                    "visitaPaga": false,
+                    "remoto": true,
+                    "clienteId": "customerA",
+                    "salePersonId": "salePersonRoleB",
+                    "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+                    "createdAt": "2025-04-12T16:53:21.212Z",
+                    "updatedAt": "2025-04-12T16:53:21.212Z"
+                },
+                {
+                    "id": "visitC",
+                    "dataVisita": "2024-06-29T00:00:00.000Z",
+                    "carroEmpresa": false,
+                    "kmInicial": null,
+                    "kmFinal": null,
+                    "comentarios": "Novo",
+                    "visitaPaga": false,
+                    "remoto": false,
+                    "clienteId": "customerA",
+                    "salePersonId": "salePersonRoleB",
+                    "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+                    "createdAt": "2025-04-12T16:53:21.224Z",
+                    "updatedAt": "2025-04-12T16:53:21.224Z"
+                },
+                {
+                    "id": "visitD",
+                    "dataVisita": "2024-05-18T00:00:00.000Z",
+                    "carroEmpresa": true,
+                    "kmInicial": 2000,
+                    "kmFinal": 2100,
+                    "comentarios": "comentario D",
+                    "visitaPaga": false,
+                    "remoto": false,
+                    "clienteId": "customerA",
+                    "salePersonId": "salePersonRoleA",
+                    "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+                    "createdAt": "2025-04-12T16:53:21.238Z",
+                    "updatedAt": "2025-04-12T16:53:21.238Z"
+                }
+            ]
+        },
+        "valorAcumulado": 64032.07500000001,
+        "posicao": 1
+    },
+    {
+        "cliente": {
+            "id": "customerB",
+            "name": "Cliente B",
+            "cnpj": "02363012000106",
+            "createdAt": "2025-04-12T16:53:20.815Z",
+            "updatedAt": "2025-04-12T16:53:20.815Z",
+            "email": "clienteB@clienteB.com",
+            "telefone": "48993214502",
+            "segmentoId": "segmentA",
+            "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+            "segmento": {
+                "id": "segmentA",
+                "name": "Segmento A"
+            },
+            "visitas": []
+        },
+        "valorAcumulado": 0,
+        "posicao": 2
+    },
+    {
+        "cliente": {
+            "id": "customerC",
+            "name": "Cliente C",
+            "cnpj": "07341446000129",
+            "createdAt": "2025-04-12T16:53:20.815Z",
+            "updatedAt": "2025-04-12T16:53:20.815Z",
+            "email": "clienteC@clienteC.com",
+            "telefone": "48993234502",
+            "segmentoId": "segmentA",
+            "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+            "segmento": {
+                "id": "segmentA",
+                "name": "Segmento A"
+            },
+            "visitas": []
+        },
+        "valorAcumulado": 0,
+        "posicao": 3
+    }
+]

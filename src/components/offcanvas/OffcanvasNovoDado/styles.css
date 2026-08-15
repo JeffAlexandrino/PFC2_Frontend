@@ -1,0 +1,10 @@
+.my-col-body-top {
+    height: calc(100% - 4rem);
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.my-col-body-bottom {
+    height: 4rem;
+    flex-shrink: 0;
+}

@@ -1,0 +1,40 @@
+/*
+    SelectMenu.tsx
+*/
+.my-select-menu-button {
+    border: none;
+    background-color: transparent;
+}
+.my-select-menu {
+    width: 22rem;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.my-select-menu-col-body {
+    max-height: 14rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.my-select-menu-item-list {
+    position: relative;
+}
+
+.my-select-menu-item-list::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+.my-select-menu-item-list:hover::before {
+    background-color: var(--bs-secondary);
+    filter: opacity(0.1);
+}
+.my-select-menu-item-list:active::before {
+    background-color: var(--bs-secondary);
+    filter: opacity(0.2);
+}

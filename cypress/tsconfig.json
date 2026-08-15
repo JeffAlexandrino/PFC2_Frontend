@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        //"ignoreDeprecations": "6.0",
+        "lib": ["es5", "dom"],
+        "types": ["cypress", "node"],
+        "jsx": "react-jsx"
+    },
+    "include": ["**/*.ts", "**/*.tsx"]
+}

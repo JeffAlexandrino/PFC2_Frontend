@@ -1,0 +1,122 @@
+[
+    {
+        "id": "d47ccc41-5932-4688-929c-265207f61e45",
+        "dataInicioMeta": "2025-04-22T03:00:00.000Z",
+        "userRoleId": "salePersonRoleA",
+        "dataFimMeta": "2025-04-23T02:59:59.000Z",
+        "createdAt": "2025-04-22T13:57:52.295Z",
+        "updatedAt": "2025-04-22T13:57:52.295Z",
+        "userRole": {
+            "id": "salePersonRoleA",
+            "createdAt": "2025-04-17T17:50:17.622Z",
+            "updatedAt": "2025-04-17T17:50:17.622Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonA",
+            "empresaId": "095786e3-c3c9-49db-a07e-991f77f0047a"
+        },
+        "tiposMeta": [
+            {
+                "id": "0370fc64-3eea-4ea7-b536-7dd75b9a5394",
+                "tipoMeta": "VALOR_VENDA",
+                "aceleratorTriggerValue": 10000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-22T13:57:52.295Z",
+                "updatedAt": "2025-04-22T13:57:52.295Z",
+                "metaId": "d47ccc41-5932-4688-929c-265207f61e45",
+                "valorAtingido": 0
+            }
+        ]
+    },
+    {
+        "id": "277dbad4-e680-4a78-ac27-b84772a20594",
+        "dataInicioMeta": "2025-04-17T03:00:00.000Z",
+        "userRoleId": "salePersonRoleA",
+        "dataFimMeta": "2025-04-18T02:59:59.000Z",
+        "createdAt": "2025-04-17T19:28:54.398Z",
+        "updatedAt": "2025-04-17T19:28:54.398Z",
+        "userRole": {
+            "id": "salePersonRoleA",
+            "createdAt": "2025-04-17T17:50:17.622Z",
+            "updatedAt": "2025-04-17T17:50:17.622Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonA",
+            "empresaId": "095786e3-c3c9-49db-a07e-991f77f0047a"
+        },
+        "tiposMeta": [
+            {
+                "id": "de761372-9087-4cef-8e3b-df02674db2fe",
+                "tipoMeta": "VALOR_VENDA",
+                "aceleratorTriggerValue": 1000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-17T19:28:54.398Z",
+                "updatedAt": "2025-04-17T19:28:54.398Z",
+                "metaId": "277dbad4-e680-4a78-ac27-b84772a20594",
+                "valorAtingido": 0
+            }
+        ]
+    },
+    {
+        "id": "targetC",
+        "dataInicioMeta": "2024-05-01T00:00:00.000Z",
+        "userRoleId": "salePersonRoleA",
+        "dataFimMeta": "2024-06-30T00:00:00.000Z",
+        "createdAt": "2025-04-17T17:50:17.685Z",
+        "updatedAt": "2025-04-17T17:50:17.685Z",
+        "userRole": {
+            "id": "salePersonRoleA",
+            "createdAt": "2025-04-17T17:50:17.622Z",
+            "updatedAt": "2025-04-17T17:50:17.622Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonA",
+            "empresaId": "095786e3-c3c9-49db-a07e-991f77f0047a"
+        },
+        "tiposMeta": [
+            {
+                "id": "60fe9f82-b85c-4836-8675-5c46c1346387",
+                "tipoMeta": "MARGEM",
+                "aceleratorTriggerValue": 1000000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-17T17:50:17.685Z",
+                "updatedAt": "2025-04-17T17:50:17.685Z",
+                "metaId": "targetC",
+                "valorAtingido": 60855.8625
+            }
+        ]
+    },
+    {
+        "id": "targetB",
+        "dataInicioMeta": "2024-04-01T00:00:00.000Z",
+        "userRoleId": "salePersonRoleA",
+        "dataFimMeta": "2024-09-30T00:00:00.000Z",
+        "createdAt": "2025-04-17T17:50:17.681Z",
+        "updatedAt": "2025-04-17T19:27:02.851Z",
+        "userRole": {
+            "id": "salePersonRoleA",
+            "createdAt": "2025-04-17T17:50:17.622Z",
+            "updatedAt": "2025-04-17T17:50:17.622Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonA",
+            "empresaId": "095786e3-c3c9-49db-a07e-991f77f0047a"
+        },
+        "tiposMeta": [
+            {
+                "id": "7d224176-1c28-4ffc-a0be-4f4dbb663cfa",
+                "tipoMeta": "FATURAMENTO",
+                "aceleratorTriggerValue": 50000,
+                "commissionTriggerValue": 0,
+                "createdAt": "2025-04-17T19:27:02.851Z",
+                "updatedAt": "2025-04-17T19:27:02.851Z",
+                "metaId": "targetB",
+                "valorAtingido": 60855.8625
+            }
+        ]
+    }
+]

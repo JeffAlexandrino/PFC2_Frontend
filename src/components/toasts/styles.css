@@ -1,0 +1,52 @@
+.my-div-alerta {
+    z-index: 8000;
+}
+
+.my-container-alerta {
+    overflow-y: hidden;
+    max-height: 120px !important;
+}
+
+.my-toast-alerta {
+    height: 7rem;
+    width: 380px;
+    transition: all 200ms;
+}
+.my-toast-alerta:hover {
+    transform: scale(1.01);
+    border-color: none !important;
+    transition: all 200ms;
+}
+
+.my-toast-alerta-header {
+    height: 2.3rem;
+}
+.my-toast-alerta-body {
+    height: calc(100% - 2.3rem - 3px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.my-alert-div-progress {
+    height: 3px !important;
+}
+.my-alert-progress-back {
+    height: 3px !important;
+}
+.my-alert-progress {
+    height: 3px !important;
+    width: 100%;
+    animation-name: my-progress-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+}
+
+@keyframes my-progress-animation {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 100%;
+    }
+}

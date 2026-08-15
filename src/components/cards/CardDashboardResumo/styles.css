@@ -1,0 +1,12 @@
+.my-card-dashboard-resumo-root {
+    width: 100%;
+    height: 8rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.my-card-dashboard-resumo-left {
+    width: max-content;
+}
+.my-card-dashboard-resumo-right {
+    width: max-content;
+}

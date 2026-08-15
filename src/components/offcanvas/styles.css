@@ -1,0 +1,55 @@
+/*
+OffcanvasPerfil
+*/
+.my-menu-user-header {
+    height: 9rem;
+    background: linear-gradient(var(--bs-primary-50), var(--bs-light));
+}
+
+.my-div-circle-name {
+    height: 4.7rem;
+    width: 4.7rem;
+}
+
+/*
+CanvasNovoCliente
+*/
+.my-col-body-top {
+    height: calc(100% - 4rem);
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.my-col-body-bottom {
+    height: 4rem;
+    flex-shrink: 0;
+}
+
+/*
+OffcanvasUsuario
+*/
+.my-div-root-user-name {
+    height: 3.8rem;
+    width: 100%;
+    transition: all 200ms;
+}
+.my-div-circle-user-name {
+    height: 2.8rem;
+    width: 2.8rem;
+    flex-shrink: 0;
+}
+
+.my-div-root-user-name:hover {
+    background-color: var(--bs-secondary-25);
+}
+.my-div-root-user-name:active {
+    background-color: var(--bs-secondary-50);
+}
+
+/*OffcanvasDistribuicoesComissao*/
+.my-distribuicao-comissao:hover {
+    background-color: var(--bs-secondary-25);
+}
+.my-distribuicao-comissao:active {
+    background-color: var(--bs-secondary-50);
+}

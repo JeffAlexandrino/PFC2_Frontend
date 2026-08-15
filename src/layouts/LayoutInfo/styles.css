@@ -1,0 +1,33 @@
+.my-layout-info-root {
+    height: 100%;
+}
+
+.my-layout-info-header {
+    height: 3.3rem;
+}
+
+.my-layout-info-header-left {
+    height: 100%;
+    width: calc(100% - 14rem) !important;
+    flex-shrink: 0;
+}
+
+.my-layout-info-header-right {
+    height: 100%;
+    width: 14rem !important;
+    flex-shrink: 1;
+}
+
+.my-layout-info-body {
+    height: calc(100% - 3.3rem);
+    background-color: var(--bs-white);
+}
+
+.my-div-lib-left {
+    height: 100%;
+    width: 16rem !important;
+}
+.my-div-lib-right {
+    height: 100%;
+    width: calc(100% - 16rem) !important;
+}

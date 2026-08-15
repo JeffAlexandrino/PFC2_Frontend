@@ -1,0 +1,22 @@
+[
+    {
+        "id": "salePersonRoleA",
+        "createdAt": "2025-04-16T11:07:55.918Z",
+        "updatedAt": "2025-04-16T11:07:55.918Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "VENDEDOR",
+        "userId": "salePersonA",
+        "empresaId": "c21fd3a2-3c64-4f98-bb72-447954718928",
+        "user": {
+            "id": "salePersonA",
+            "name": "Alcione Sale Person A",
+            "email": "salePersonA@salePersonA.com",
+            "isEmailVerified": false,
+            "bloqueado": false,
+            "ativo": true,
+            "createdAt": "2025-04-16T11:07:55.915Z",
+            "updatedAt": "2025-04-16T11:07:55.915Z"
+        }
+    }
+]

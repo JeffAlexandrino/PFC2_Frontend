@@ -1,0 +1,62 @@
+[
+    {
+        "id": "salePersonRoleA",
+        "createdAt": "2025-04-12T16:53:20.702Z",
+        "updatedAt": "2025-04-12T16:53:20.702Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "VENDEDOR",
+        "userId": "salePersonA",
+        "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+        "user": {
+            "id": "salePersonA",
+            "name": "Alcione Sale Person A",
+            "email": "salePersonA@salePersonA.com",
+            "isEmailVerified": false,
+            "bloqueado": false,
+            "ativo": true,
+            "createdAt": "2025-04-12T16:53:20.689Z",
+            "updatedAt": "2025-04-12T16:53:20.689Z"
+        }
+    },
+    {
+        "id": "salePersonRoleB",
+        "createdAt": "2025-04-12T16:53:20.702Z",
+        "updatedAt": "2025-04-12T16:53:20.702Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "VENDEDOR",
+        "userId": "salePersonB",
+        "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+        "user": {
+            "id": "salePersonB",
+            "name": "Arnaldo Cruz Sale Person B",
+            "email": "salePersonB@salePersonB.com",
+            "isEmailVerified": false,
+            "bloqueado": false,
+            "ativo": true,
+            "createdAt": "2025-04-12T16:53:20.689Z",
+            "updatedAt": "2025-04-12T16:53:20.689Z"
+        }
+    },
+    {
+        "id": "superUserSalePersonRole",
+        "createdAt": "2025-04-12T16:53:20.702Z",
+        "updatedAt": "2025-04-12T16:53:20.702Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "VENDEDOR",
+        "userId": "superUser",
+        "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd",
+        "user": {
+            "id": "superUser",
+            "name": "Pelé Super User",
+            "email": "superUser@superUser.com",
+            "isEmailVerified": false,
+            "bloqueado": false,
+            "ativo": true,
+            "createdAt": "2025-04-12T16:53:20.689Z",
+            "updatedAt": "2025-04-12T16:53:20.689Z"
+        }
+    }
+]

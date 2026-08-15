@@ -1,0 +1,304 @@
+[
+    {
+        "id": "salePersonA",
+        "name": "Alcione Sale Person A",
+        "email": "salePersonA@salePersonA.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "canBeDeletedRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "SOLUTION_ARCHITECT",
+                "userId": "salePersonA",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            },
+            {
+                "id": "salePersonRoleA",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonA",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "salePersonB",
+        "name": "Arnaldo Cruz Sale Person B",
+        "email": "salePersonB@salePersonB.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "salePersonRoleB",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "salePersonB",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "comercialManager",
+        "name": "Cartola Comercial Manager",
+        "email": "comercialManager@comercialManager.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "comercialManagerRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "COMERCIAL_MANAGER",
+                "userId": "comercialManager",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "comercialAssistant",
+        "name": "Djavan Comercial Assistant",
+        "email": "comercialAssistant@comercialAssistant.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "comercialAssistantRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "COMERCIAL_ASSISTANT",
+                "userId": "comercialAssistant",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "superUser",
+        "name": "Pelé Super User",
+        "email": "superUser@superUser.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "superUserAdminRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "ADMIN",
+                "userId": "superUser",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            },
+            {
+                "id": "superUserComercialManagerRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "COMERCIAL_MANAGER",
+                "userId": "superUser",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            },
+            {
+                "id": "superUserComercialAssistantRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "COMERCIAL_ASSISTANT",
+                "userId": "superUser",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            },
+            {
+                "id": "superUserSolutionArchitectRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "SOLUTION_ARCHITECT",
+                "userId": "superUser",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            },
+            {
+                "id": "superUserCommissioningAnalistRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "COMMISSIONING_ANALYST",
+                "userId": "superUser",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            },
+            {
+                "id": "superUserSalePersonRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "VENDEDOR",
+                "userId": "superUser",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "admin",
+        "name": "Roberto Carlos Administrador",
+        "email": "administrador@adminitrador.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "adminRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "ADMIN",
+                "userId": "admin",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "solutionArchitect",
+        "name": "Roberto Carlos Solution Architect",
+        "email": "solutionArchitect@solutionArchitect.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "solutionArchitectRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "SOLUTION_ARCHITECT",
+                "userId": "solutionArchitect",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "commissioningAnalyst",
+        "name": "Tim Maia Comissioning Analyst",
+        "email": "commissioningAnalyst@commissioningAnalyst.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-12T16:53:20.689Z",
+        "updatedAt": "2025-04-12T16:53:20.689Z",
+        "userRoles": [
+            {
+                "id": "commissioningAnalistRole",
+                "createdAt": "2025-04-12T16:53:20.702Z",
+                "updatedAt": "2025-04-12T16:53:20.702Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "COMMISSIONING_ANALYST",
+                "userId": "commissioningAnalyst",
+                "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+            }
+        ]
+    },
+    {
+        "id": "referrer",
+        "name": "Tom Jobim Referrer",
+        "email": "referrer@referrer.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-04-25T13:13:23.438Z",
+        "updatedAt": "2025-04-25T13:13:23.438Z",
+        "userRoles": [
+            {
+                "id": "referrerRole",
+                "createdAt": "2025-04-25T13:13:23.442Z",
+                "updatedAt": "2025-04-25T13:13:23.442Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "REFERRER",
+                "userId": "referrer",
+                "empresaId": "1f811c0e-1cde-4687-8d47-cf8ed5f326aa"
+            }
+        ]
+    },
+    {
+        "id": "monitor",
+        "name": "Usuario Monitor",
+        "email": "monitor@monitor.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-10-05T13:39:23.820Z",
+        "updatedAt": "2025-10-05T13:39:23.820Z",
+        "userRoles": [
+            {
+                "id": "monitorRole",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "MONITOR",
+                "userId": "monitor",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            }
+        ]
+    },
+    {
+        "id": "financialManagerUser",
+        "name": "Edward Elric Financial Manager",
+        "email": "financialManagerUser@financialUser.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-10-05T13:39:23.820Z",
+        "updatedAt": "2025-10-05T13:39:23.820Z",
+        "userRoles": [
+            {
+                "id": "financialManagerUserRole",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "FINANCIAL_MANAGER",
+                "userId": "financialManagerUser",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            }
+        ]
+    }
+]

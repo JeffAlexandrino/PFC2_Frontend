@@ -1,0 +1,18 @@
+/*
+SpanVendaProduto & SpanVendaServico
+*/
+.my-container-controle-borda > :last-child > .my-child-controle-borda {
+    border: none !important;
+    padding-bottom: 0px !important;
+}
+
+.my-container-controle-borda {
+    max-height: 24rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    user-select: text;
+}
+
+.my-child-controle-borda {
+    padding-bottom: 0.7rem;
+}

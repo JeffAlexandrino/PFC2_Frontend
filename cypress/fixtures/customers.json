@@ -1,0 +1,56 @@
+[
+    {
+        "id": "customerA",
+        "name": "Cliente A",
+        "cnpj": "02281027000125",
+        "createdAt": "2025-04-23T16:36:39.612Z",
+        "updatedAt": "2025-04-23T16:36:39.612Z",
+        "email": "clienteA@clienteA.com",
+        "telefone": "48993214502",
+        "segmentoId": "segmentA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "segmento": {
+            "id": "segmentA",
+            "name": "Segmento A",
+            "createdAt": "2025-04-23T16:36:39.600Z",
+            "updatedAt": "2025-04-23T16:36:39.600Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "customerB",
+        "name": "Cliente B",
+        "cnpj": "02363012000106",
+        "createdAt": "2025-04-23T16:36:39.612Z",
+        "updatedAt": "2025-04-23T16:36:39.612Z",
+        "email": "clienteB@clienteB.com",
+        "telefone": "48993214502",
+        "segmentoId": "segmentA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "segmento": {
+            "id": "segmentA",
+            "name": "Segmento A",
+            "createdAt": "2025-04-23T16:36:39.600Z",
+            "updatedAt": "2025-04-23T16:36:39.600Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    },
+    {
+        "id": "customerC",
+        "name": "Cliente C",
+        "cnpj": "07341446000129",
+        "createdAt": "2025-04-23T16:36:39.612Z",
+        "updatedAt": "2025-04-23T16:36:39.612Z",
+        "email": "clienteC@clienteC.com",
+        "telefone": "48993234502",
+        "segmentoId": "segmentA",
+        "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5",
+        "segmento": {
+            "id": "segmentA",
+            "name": "Segmento A",
+            "createdAt": "2025-04-23T16:36:39.600Z",
+            "updatedAt": "2025-04-23T16:36:39.600Z",
+            "empresaId": "0c6c9611-9479-4828-b6c9-ad5546e8c2d5"
+        }
+    }
+]

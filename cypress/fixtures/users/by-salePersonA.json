@@ -1,0 +1,32 @@
+{
+    "id": "salePersonA",
+    "name": "Alcione Sale Person A",
+    "email": "salePersonA@salePersonA.com",
+    "isEmailVerified": false,
+    "bloqueado": false,
+    "ativo": true,
+    "createdAt": "2025-04-12T16:53:20.689Z",
+    "updatedAt": "2025-04-12T16:53:20.689Z",
+    "userRoles": [
+        {
+            "id": "canBeDeletedRole",
+            "createdAt": "2025-04-12T16:53:20.702Z",
+            "updatedAt": "2025-04-12T16:53:20.702Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "SOLUTION_ARCHITECT",
+            "userId": "salePersonA",
+            "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+        },
+        {
+            "id": "salePersonRoleA",
+            "createdAt": "2025-04-12T16:53:20.702Z",
+            "updatedAt": "2025-04-12T16:53:20.702Z",
+            "ativo": true,
+            "bloqueado": false,
+            "role": "VENDEDOR",
+            "userId": "salePersonA",
+            "empresaId": "21285149-77cc-427b-bfaa-7026f66faecd"
+        }
+    ]
+}

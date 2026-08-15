@@ -1,0 +1,44 @@
+[
+    {
+        "posicao": 1,
+        "userRole": {
+            "id": "salePersonRoleA",
+            "user": {
+                "name": "Alcione Sale Person A",
+                "id": "salePersonA",
+                "email": "salePersonA@salePersonA.com"
+            }
+        },
+        "valorAcumulado": 60855.8625,
+        "valorAcumuladoVendaRenovacao": 3176.2124999999996,
+        "valorAcumuladoVendaNova": 57679.65000000001
+    },
+    {
+        "posicao": 2,
+        "userRole": {
+            "id": "salePersonRoleB",
+            "user": {
+                "name": "Arnaldo Cruz Sale Person B",
+                "id": "salePersonB",
+                "email": "salePersonB@salePersonB.com"
+            }
+        },
+        "valorAcumulado": 3176.2124999999996,
+        "valorAcumuladoVendaRenovacao": 3176.2124999999996,
+        "valorAcumuladoVendaNova": 0
+    },
+    {
+        "posicao": 3,
+        "userRole": {
+            "id": "superUserSalePersonRole",
+            "user": {
+                "name": "Pelé Super User",
+                "id": "superUser",
+                "email": "superUser@superUser.com"
+            }
+        },
+        "valorAcumulado": 0,
+        "valorAcumuladoVendaRenovacao": 0,
+        "valorAcumuladoVendaNova": 0
+    }
+]

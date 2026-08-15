@@ -1,0 +1,83 @@
+/*
+Botao Perfil
+*/
+.my-button-perfil {
+    height: 2.5rem;
+    width: 2.5rem;
+    user-select: none;
+}
+
+/*
+Botao fechar
+*/
+.my-btn-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    transition: transform 150ms;
+}
+.my-btn-icon:hover {
+    transform: scale(1.08);
+    transition: transform 150ms;
+}
+.my-btn-icon:active {
+    transform: scale(0.92);
+    transition: transform 150ms;
+}
+
+/*
+Botao Label
+*/
+.my-label-botao {
+    transition: transform 120ms;
+}
+.my-label-botao:hover {
+    transform: scale(1.01);
+    text-decoration: underline;
+}
+.my-label-botao:active {
+    transform: scale(0.99);
+}
+
+/*
+Botao Assincrono
+*/
+.my-button-async.my-loading {
+    pointer-events: none;
+}
+.my-button-async.my-loading .my-button-async-children {
+    opacity: 0;
+}
+.my-button-async.my-loading .my-spinner-loading {
+    display: flex !important;
+}
+
+/*
+Botao
+*/
+.my-button:hover {
+    background-color: var(--bs-secondary-25) !important;
+}
+.my-button:active {
+    background-color: var(--bs-secondary-50) !important;
+}
+
+/*
+Botao Revogar Permissao
+*/
+.my-button-revogar-permissao {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: transparent !important;
+}
+.my-button-revogar-permissao:hover {
+    background-color: var(--bs-white) !important;
+}
+
+/*
+Botao Organization
+*/
+.my-img-logo {
+    height: 100%;
+    width: 100% !important;
+    object-fit: contain;
+}

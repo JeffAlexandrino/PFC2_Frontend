@@ -1,0 +1,15 @@
+{
+    "evolucaoAnoAtual": [],
+    "evolucaoAnoAnterior": [
+        {
+            "mesAno": "5-2023",
+            "valor": 4350.625,
+            "valorTicketMedio": 4350.625
+        },
+        {
+            "mesAno": "6-2023",
+            "valor": 4350.625,
+            "valorTicketMedio": 4350.625
+        }
+    ]
+}

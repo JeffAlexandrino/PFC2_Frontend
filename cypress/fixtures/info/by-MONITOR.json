@@ -1,0 +1,145 @@
+{
+    "user": {
+        "id": "monitor",
+        "name": "Usuario Monitor",
+        "email": "monitor@monitor.com",
+        "isEmailVerified": false,
+        "bloqueado": false,
+        "ativo": true,
+        "createdAt": "2025-10-05T13:39:23.820Z",
+        "updatedAt": "2025-10-05T13:39:23.820Z",
+        "userRoles": [
+            {
+                "id": "monitorRole",
+                "createdAt": "2025-05-05T13:39:23.824Z",
+                "updatedAt": "2025-05-05T13:39:23.824Z",
+                "ativo": true,
+                "bloqueado": false,
+                "role": "MONITOR",
+                "userId": "monitor",
+                "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
+            }
+        ]
+    },
+    "regrasHabilidades": [
+        {
+            "action": "read",
+            "subject": "TipoProdutoServico"
+        },
+        {
+            "action": "read",
+            "subject": "FormaPagamento"
+        },
+        {
+            "action": "read",
+            "subject": "Fornecedor"
+        },
+        {
+            "action": "read",
+            "subject": "Fabricante"
+        },
+        {
+            "action": "read",
+            "subject": "Categoria"
+        },
+        {
+            "action": "read",
+            "subject": "Segmento"
+        },
+        {
+            "action": "read",
+            "subject": "Produto"
+        },
+        {
+            "action": "read",
+            "subject": "Servico"
+        },
+        {
+            "action": "read",
+            "subject": "Cliente"
+        },
+        {
+            "action": "read",
+            "subject": "UserRole"
+        },
+        {
+            "action": "read",
+            "subject": "Empresa",
+            "conditions": {
+                "userId": "monitor"
+            }
+        },
+        {
+            "action": "read",
+            "subject": "Contrato"
+        },
+        {
+            "action": "read",
+            "subject": "User"
+        },
+        {
+            "action": "read",
+            "subject": "DistribuicaoComissao"
+        },
+        {
+            "action": "read",
+            "subject": "UserRole"
+        },
+        {
+            "action": "read",
+            "subject": "Comissao"
+        },
+        {
+            "action": "read",
+            "subject": "Contrato"
+        },
+        {
+            "action": "read",
+            "subject": "Visita"
+        },
+        {
+            "action": "read",
+            "subject": "Venda"
+        },
+        {
+            "action": "read",
+            "subject": "User"
+        },
+        {
+            "action": "read",
+            "subject": "Meta"
+        },
+        {
+            "action": "read",
+            "subject": "Dashboard"
+        },
+        {
+            "action": "read",
+            "subject": "Auditoria"
+        },
+        {
+            "action": "update",
+            "subject": "Empresa"
+        }
+    ],
+    "currentUserRole": {
+        "id": "monitorRole",
+        "createdAt": "2025-05-05T13:39:23.824Z",
+        "updatedAt": "2025-05-05T13:39:23.824Z",
+        "ativo": true,
+        "bloqueado": false,
+        "role": "MONITOR",
+        "userId": "monitor",
+        "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+        "empresa": {
+            "id": "7e7d0376-1855-40db-a573-f0f98a747b1b",
+            "name": "Protect Solutions LTDA",
+            "cnpj": "02281027000125",
+            "empresaLogoId": null,
+            "createdAt": "2025-05-05T13:39:23.814Z",
+            "updatedAt": "2025-05-05T13:39:23.814Z",
+            "empresaLogo": null,
+            "empresaLogoSrc": null
+        }
+    }
+}
