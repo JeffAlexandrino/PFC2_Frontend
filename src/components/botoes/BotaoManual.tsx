@@ -11,9 +11,9 @@ export default function ButtonUserManual() {
 
     const manualCompleto = useCallback(() => {
         const ADMIN_LINK =
-            "https://protectsolutionscombr.sharepoint.com/:b:/r/sites/Onboarding/Documentos%20Compartilhados/Processos%20Internos/7%20-%20CommissionPro/Manuais%20de%20uso/CommissionPro%20V5.0%20-%20Manual%20de%20Admin.pdf?csf=1&web=1&e=21lhb2";
+            "";
         const USER_LINK =
-            "https://protectsolutionscombr.sharepoint.com/:b:/r/sites/Onboarding/Documentos%20Compartilhados/Processos%20Internos/7%20-%20CommissionPro/Manuais%20de%20uso/CommissionPro%20V5.0%20-%20Manual%20de%20Usu%C3%A1rio.pdf?csf=1&web=1&e=GGlJnY";
+            "";
 
         const manualLink = currentUserRole?.role === Role.ADMIN ? ADMIN_LINK : USER_LINK;
         window.open(manualLink, "_blank");
@@ -22,7 +22,7 @@ export default function ButtonUserManual() {
 
     const guiaRapido = useCallback(() => {
         const QUICK_START =
-            "https://protectsolutionscombr.sharepoint.com/:b:/r/sites/Onboarding/Documentos%20Compartilhados/Processos%20Internos/7%20-%20CommissionPro/Manuais%20de%20uso/CommissionPro%20-%20Guia%20R%C3%A1pido%20V3.pdf?csf=1&web=1&e=HZIrry";
+            "";
 
         window.open(QUICK_START, "_blank");
         setShowModal(false);

@@ -9,7 +9,7 @@ export function ButtonAddTicket() {
 
     const openNewTabAndRedirectToManualLink = useCallback(() => {
         const LINK =
-            "https://protectsolutionscombr.sharepoint.com/sites/ComissionProArquivos/Boletos/Forms/AllItems.aspx";
+            "";
         window.open(LINK, "_blank");
     }, []);
 
@@ -54,7 +54,7 @@ export function ButtonAddInvoice() {
 
     const openNewTabAndRedirectToManualLink = useCallback(() => {
         const LINK =
-            "https://protectsolutionscombr.sharepoint.com/sites/ComissionProArquivos/Notas%20Fiscais/Forms/AllItems.aspx";
+            "";
         window.open(LINK, "_blank");
     }, []);
 
@@ -98,7 +98,7 @@ export function ButtonAddSale() {
 
     const openNewTabAndRedirectToManualLink = useCallback(() => {
         const LINK =
-            "https://protectsolutionscombr.sharepoint.com/sites/ComissionProArquivos/Vendas/Forms/AllItems.aspx";
+            "";
         window.open(LINK, "_blank");
     }, []);
 
@@ -141,7 +141,7 @@ export function ButtonTravelTicket() {
     const [showModal, setShowModal] = useState(false);
 
     const openNewTabAndRedirectToManualLink = useCallback(() => {
-        const LINK = "https://protectsolutionscombr.sharepoint.com/sites/ComissionProArquivos/Visitas%20Externas";
+        const LINK = "";
         window.open(LINK, "_blank");
     }, []);
 

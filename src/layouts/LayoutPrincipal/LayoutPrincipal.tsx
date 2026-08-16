@@ -5,7 +5,6 @@ import { Outlet } from "react-router-dom";
 import { useContext } from "react";
 
 import ButtonUserManual from "../../components/botoes/BotaoManual";
-import BotaoUpdates from "../../components/botoes/BotaoUpdates";
 import UserRoleUtil from "../../utils/user-role.util";
 import AvisosSistema from "./avisosSistema";
 import Menu from "./Menu";
@@ -53,7 +52,7 @@ export default function LayoutPrincipal() {
                         </>
                     ) : (
                         <div className="d-flex gap-3">
-                            <BotaoUpdates />
+                            
                             <ButtonUserManual />
                             <Stack className="text-light lh-1 gap-1">
                                 <span>{usuario?.name}</span>
@@ -77,19 +76,6 @@ export default function LayoutPrincipal() {
                     <div className="my-div-body-lp flex-grow-1 overflow-auto">{currentUserRole && <Outlet />}</div>
                 </div>
             </div>
-
-            <footer className="footer-fixed bg-primary text-white flex-shrink-0">
-                <div className="container-fluid h-100">
-                    <div className="row align-items-center h-100">
-                        <div className="col">
-                            <span className="footer-version d-flex align-items-center">
-                                <i className="bi bi-c-circle me-1"></i>
-                                {new Date().getFullYear()} Altus Group
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
     );
 }

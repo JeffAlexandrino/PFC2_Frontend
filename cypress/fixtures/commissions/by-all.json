@@ -56,7 +56,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -127,7 +127,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -208,7 +208,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -293,7 +293,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -384,7 +384,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -469,7 +469,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -554,7 +554,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -665,7 +665,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -774,7 +774,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -885,7 +885,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -994,7 +994,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -1065,7 +1065,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -1146,7 +1146,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -1231,7 +1231,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -1316,7 +1316,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -1401,7 +1401,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -1492,7 +1492,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -1603,7 +1603,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -1712,7 +1712,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -1823,7 +1823,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -1932,7 +1932,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -2017,7 +2017,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -2108,7 +2108,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -2219,7 +2219,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -2328,7 +2328,7 @@
             "cliente": {
                 "id": "customerA",
                 "name": "Cliente A",
-                "cnpj": "02281027000125",
+                "cnpj": "02372880000152",
                 "createdAt": "2025-05-05T13:39:23.861Z",
                 "updatedAt": "2025-05-05T13:39:23.861Z",
                 "email": "clienteA@clienteA.com",
@@ -2439,7 +2439,7 @@
                             "name": "FornecedorA",
                             "createdAt": "2025-05-05T13:39:23.867Z",
                             "updatedAt": "2025-05-05T13:39:23.867Z",
-                            "cnpj": "02281027000125",
+                            "cnpj": "02372880000152",
                             "email": "fornecedorA@fornecedorA.com",
                             "empresaId": "7e7d0376-1855-40db-a573-f0f98a747b1b"
                         }
@@ -2996,7 +2996,7 @@
         },
         "notaVenda": {
             "id": "saleDInvoice",
-            "codigo": "notaVendaD", 
+            "codigo": "notaVendaD",
             "formaParcelamento": 2,
             "dataFaturamento": "2023-06-15T00:00:00.300Z",
             "vendaId": "saleD",

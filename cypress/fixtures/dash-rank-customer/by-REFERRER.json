@@ -3,7 +3,7 @@
         "cliente": {
             "id": "customerA",
             "name": "Cliente A",
-            "cnpj": "02281027000125",
+            "cnpj": "02372880000152",
             "createdAt": "2025-04-25T13:13:23.481Z",
             "updatedAt": "2025-04-25T13:13:23.481Z",
             "email": "clienteA@clienteA.com",
