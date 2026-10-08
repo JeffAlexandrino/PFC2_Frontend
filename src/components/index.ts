@@ -13,14 +13,14 @@ import ButtonOrganization from "./botoes/BotaoOrganizacao";
 import GroupRadio from "./botoes/GroupRadio";
 
 //CARDS
-import CardLogin from "./cards/CardLogin";
+import CardLogin from "./cards/LoginSenha/CardLogin";
 import CardDashboardResumo from "./cards/CardDashboardResumo";
 import CardTopClientes from "./cards/Rankings/CardTopClientes";
 import CardRankCategoriasPorVenda from "./cards/Rankings/CardRankCategoriaPorVenda";
 import CardTopUserRoles from "./cards/Rankings/CardTopUserRoles";
 import CardTiposProdServ from "./cards/Gráficos/Visualizacoes/CardTiposProdServ";
-import CardRecuperarSenha from "./cards/CardRecuperarSenha";
-import CardCriarNovaSenha from "./cards/CardCriarNovaSenha";
+import CardRecuperarSenha from "./cards/LoginSenha/CardRecuperarSenha";
+import CardCriarNovaSenha from "./cards/LoginSenha/CardCriarNovaSenha";
 import CardDashboard from "./cards/CardDashboard";
 import EvolucaoDashboard from "./cards/Gráficos/Visualizacoes/EvolucaoDashboard";
 

@@ -4,7 +4,7 @@ import { ContextUser } from "../../contexts/ContextUser";
 import { Outlet } from "react-router-dom";
 import { useContext } from "react";
 
-import ButtonUserManual from "../../components/botoes/BotaoManual";
+// import ButtonUserManual from "../../components/botoes/BotaoManual";
 import UserRoleUtil from "../../utils/user-role.util";
 import AvisosSistema from "./avisosSistema";
 import Menu from "./Menu";
@@ -53,7 +53,7 @@ export default function LayoutPrincipal() {
                     ) : (
                         <div className="d-flex gap-3">
                             
-                            <ButtonUserManual />
+                            {/* <ButtonUserManual /> */}
                             <Stack className="text-light lh-1 gap-1">
                                 <span>{usuario?.name}</span>
                                 <small>

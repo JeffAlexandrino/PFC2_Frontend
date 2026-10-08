@@ -1,63 +1,76 @@
 @use "sass:color";
-/* The following block can be included in a custom.scss */
 
-/* make the customizations */
 $theme-colors: (
-    "primary": #015ca2,
-    "primary-25": rgba(#015ca2, 0.25),
-    "primary-50": rgba(#015ca2, 0.5),
-    "primary-75": rgba(#015ca2, 0.75),
-    "secondary": #bfc0c0,
-    "secondary-25": rgba(#bfc0c0, 0.25),
-    "secondary-50": rgba(#bfc0c0, 0.5),
-    "secondary-75": rgba(#bfc0c0, 0.75),
-    "secondary-dark": #6f7171,
-    "dark": #000c14,
-    "dark-25": rgba(#000c14, 0.25),
-    "dark-50": rgba(#000c14, 0.5),
-    "dark-75": rgba(#000c14, 0.75),
-    "white": #fbfffe,
-    "white-25": rgba(#fbfffe, 0.25),
-    "white-50": rgba(#fbfffe, 0.5),
-    "white-75": rgba(#fbfffe, 0.75),
-    "light": #ebf6ff,
-    "info": #20606f,
-    "info-light": #37a5be,
+    // CORES PRINCIPAIS
+    "primary": #2563EB,
+    "primary-25": rgba(#2563EB, 0.25),
+    "primary-50": rgba(#2563EB, 0.50),
+    "primary-75": rgba(#2563EB, 0.75),
 
-    "success": #14991F,
-    "success-25": rgba(#72a276, 0.25),
-    "success-50": rgba(#72a276, 0.5),
-    "success-75": rgba(#72a276, 0.75),
-    "warning": #D7C00E,
-    "danger": #e73a2e,
+    "secondary": #64748B,
+    "secondary-25": rgba(#64748B, 0.25),
+    "secondary-50": rgba(#64748B, 0.50),
+    "secondary-75": rgba(#64748B, 0.75),
+    "secondary-dark": #334155,
 
-    //CORES PARA DASHBOARD
-    "dash-red": #db504a,
-    "dash-red-light": #e28676,
-    "dash-orange": #ff7700,
-    "dash-orange-light": #fda43f,
-    "dash-green": #38922c,
-    "dash-green-light": #94c042,
-    "dash-blue": #2d7dd2,
-    "dash-blue-light": #68a1df,
+    // ESTRUTURA E SUPERFÍCIES
+    "dark": #0F172A,
+    "dark-25": rgba(#0F172A, 0.25),
+    "dark-50": rgba(#0F172A, 0.50),
+    "dark-75": rgba(#0F172A, 0.75),
 
-    "faturamento": #db504a,
-    "faturamento-light": #e28676,
-    "meta-atingida": #ff7700,
-    "meta-atingida-light": #fda43f,
-    "markup-bruto": #38922c,
-    "markup-bruto-light": #94c042,
-    "markup-liquido": #2d7dd2,
-    "markup-liquido-light": #68a1df,
-    "ouro": #f7b32b,
-    "prata": #dfe0dc,
-    "bronze": #a9927d,
+    "white": #FFFFFF,
+    "white-25": rgba(#FFFFFF, 0.25),
+    "white-50": rgba(#FFFFFF, 0.50),
+    "white-75": rgba(#FFFFFF, 0.75),
+
+    "light": #F1F5F9,
+
+    // CORES INFORMATIVAS
+    "info": #0891B2,
+    "info-light": #22D3EE,
+
+    // ESTADOS SEMÂNTICOS
+    "success": #059669,
+    "success-25": rgba(#059669, 0.25),
+    "success-50": rgba(#059669, 0.50),
+    "success-75": rgba(#059669, 0.75),
+    "warning": #F59E0B,
+    "danger": #EF4444,
+
+    // CORES PARA DASHBOARD
+    "dash-red": #EF4444,
+    "dash-red-light": #FCA5A5,
+    "dash-orange": #F97316,
+    "dash-orange-light": #FDBA74,
+    "dash-green": #10B981,
+    "dash-green-light": #6EE7B7,
+    "dash-blue": #3B82F6,
+    "dash-blue-light": #93C5FD,
+
+    // INDICADORES DE NEGÓCIO
+    "faturamento": #EF4444,
+    "faturamento-light": #FCA5A5,
+
+    "meta-atingida": #F59E0B,
+    "meta-atingida-light": #FCD34D,
+
+    "markup-bruto": #10B981,
+    "markup-bruto-light": #6EE7B7,
+
+    "markup-liquido": #3B82F6,
+    "markup-liquido-light": #93C5FD,
+
+    // CLASSIFICAÇÃO DE MEDALHAS
+    "ouro": #FBBF24,
+    "prata": #CBD5E1,
+    "bronze": #B08968,
 );
 
-/* import bootstrap to set changes */
+/* IMPORTAÇÃO DO BOOTSTRAP */
 @import "~bootstrap/scss/bootstrap";
 
-/* CASSES GLOBAIS */
+/* CLASSES GLOBAIS */
 
 .my-fade-animation {
     animation-name: fade-animation;
@@ -78,7 +91,7 @@ $theme-colors: (
 .nav-item {
     height: 100% !important;
 }
-.nav-item > * {
+.nav-item>* {
     height: 100% !important;
 }
 .nav-tabs {

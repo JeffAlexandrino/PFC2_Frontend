@@ -1,15 +1,15 @@
 import { Button, Card, Col, Spinner, Stack } from "react-bootstrap";
-import FormNovaSenha, { tNovaSenha } from "../forms/FormNovaSenha";
-import { ContextAlerta } from "../../contexts/ContextAlert";
+import FormNovaSenha, { tNovaSenha } from "../../forms/FormNovaSenha";
+import { ContextAlerta } from "../../../contexts/ContextAlert";
 import { useCallback, useContext, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { FormikHelpers } from "formik";
 
-import FrontRoutes from "../../lib/front-routes";
-import useAuth from "../../hooks/use-auth";
-import MyLink from "../links/MyLink";
+import FrontRoutes from "../../../lib/front-routes";
+import useAuth from "../../../hooks/use-auth";
+import MyLink from "../../links/MyLink";
 
-import "./styles.css";
+import "./style.css";
 
 let abortController: AbortController | undefined;
 
@@ -48,8 +48,8 @@ export default function CardCriarNovaSenha() {
             <Card.Body>
                 <Col sm="12" className="text-center mb-3">
                     <Stack className="d-flex align-items-center gap-1">
-                        <img className="my-img-logo" alt="logo" src="/logo192-col.png" />
-                        <h4 className="mb-0 text-primary">NextGen CommissionPro</h4>
+                        <img alt="logo" src="/logo2.png" style={{ width: "20rem", height: "15rem" }} />
+
                     </Stack>
                 </Col>
                 <Col sm="12">

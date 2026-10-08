@@ -3,12 +3,12 @@ import { useCallback, useEffect } from "react";
 import { Formik, FormikHelpers } from "formik";
 import { v4 } from "uuid";
 
-import FrontRoutes from "../../lib/front-routes";
-import useAuth from "../../hooks/use-auth";
-import MyLink from "../links/MyLink";
+import FrontRoutes from "../../../lib/front-routes";
+import useAuth from "../../../hooks/use-auth";
+import MyLink from "../../links/MyLink";
 
+import "./style.css";
 import * as yup from "yup";
-import "./styles.css";
 
 let abortController: AbortController | undefined;
 
@@ -36,8 +36,7 @@ export default function CardRecuperarSenha() {
             <Card.Body>
                 <Col sm="12" className="text-center mb-3">
                     <Stack className="d-flex align-items-center gap-1">
-                        <img className="my-img-logo" alt="logo" src="/logo192-col.png" />
-                        <h4 className="mb-0 text-primary">NextGen CommissionPro</h4>
+                        <img alt="logo" src="/logo2.png" style={{ width: "20rem", height: "15rem" }} />
                     </Stack>
                 </Col>
                 <Col sm="12" className="lh-1 mb-2">

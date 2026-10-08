@@ -1,18 +1,18 @@
 import { Button, Card, Col, Form, Row, Spinner, Stack } from "react-bootstrap";
-import { SYSTEM_NAME } from "../../layouts/LayoutPrincipal/LayoutPrincipal";
-import { ContextAlerta } from "../../contexts/ContextAlert";
+import { SYSTEM_NAME } from "../../../layouts/LayoutPrincipal/LayoutPrincipal";
+import { ContextAlerta } from "../../../contexts/ContextAlert";
 import { useCallback, useContext, useState } from "react";
-import api, { tCredenciais } from "../../services/api";
+import api, { tCredenciais } from "../../../services/api";
 import { Formik, FormikHelpers } from "formik";
 import { useNavigate } from "react-router-dom";
 import { v4 } from "uuid";
 
-import FrontRoutes from "../../lib/front-routes";
-import InputSenha from "../inputs/InputSenha";
-import MyLink from "../links/MyLink";
-import utils from "../../utils";
+import FrontRoutes from "../../../lib/front-routes";
+import InputSenha from "../../inputs/InputSenha";
+import MyLink from "../../links/MyLink";
+import utils from "../../../utils";
 
-import "./styles.css";
+import "./style.css"
 import * as yup from "yup";
 
 export default function CardLogin() {
@@ -46,8 +46,7 @@ export default function CardLogin() {
             <Card.Body>
                 <Col sm="12" className="text-center mb-3">
                     <Stack className="d-flex align-items-center gap-1">
-                        <img alt="logo" src="/logo192-col.png" style={{ width: "2.5rem", height: "2.5rem" }} />
-                        <h4 className="mb-0 text-primary">{SYSTEM_NAME}</h4>
+                        <img alt="logo" src="/logo2.png" style={{ width: "20rem", height: "15rem" }} />
                     </Stack>
                 </Col>
                 <Col sm="12">

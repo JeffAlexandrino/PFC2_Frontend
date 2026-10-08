@@ -1,0 +1,23 @@
+/* CardLogin */
+.my-card-login {
+    width: 100%;
+    max-width: 24rem;
+    height: max-content;
+}
+
+/* CardRecuperarSenha */
+.my-card-recuperar-senha {
+    width: 100%;
+    max-width: 24rem;
+    height: max-content;
+}
+.my-card-recuperar-senha-text-info {
+    text-align: justify !important;
+}
+
+/* CardCriarNovaSenha */
+.my-card-criar-nova-senha {
+    width: 100%;
+    max-width: 24rem;
+    height: max-content;
+}
